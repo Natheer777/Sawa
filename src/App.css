@@ -1,6 +1,6 @@
 * {
-
-  font-family: "Zen Antique", "Vollkorn", "Noto Serif JP" ,"Scheherazade New", serif;
+  font-family: "Zen Antique", "Vollkorn", "Noto Serif JP", "Scheherazade New",
+    serif;
 
   font-weight: 900;
   font-style: normal;
@@ -64,33 +64,33 @@ div#root {
   filter: blur(0);
   transform: translateX(0);
 }
-@keyframes up {
+/* @keyframes up {
   50% {
     transform: translateY(20px);
   }
-}
+} */
 .up {
-  z-index: 10;
-  position: fixed;
-  bottom: 20px;
-  right: -50px;
+  /* z-index: 10; */
+  /* position: fixed; */
+  /* bottom: 20px; */
+  /* right: -50px; */
   border: none;
   color: white;
-  background-color: var(--color--red);
+  background-color: #ca4555;
   font-weight: bold;
   font-size: 20px;
-  padding: 15px 8px 15px 8px;
+  /* padding: 1; */
   border-radius: 20px;
   cursor: pointer;
-  transition: 0.9s;
-  animation-name: up;
+  /* transition: 0.9s; */
+  /* animation-name: up;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
-.up.look {
+/* .up.look {
   right: 18px;
-}
+} */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -107,19 +107,47 @@ div#root {
 .social {
   z-index: 10;
   position: fixed;
-  bottom: 11vh;
+  bottom: 8vh;
   right: -50px;
   border: none;
   color: white;
   transition: 0.9s;
 }
 .social ul li {
-  background-color: var(--color--red);
+  /* background-color: var(--color--red); */
   margin-top: 6px;
   padding: 10px;
   border-radius: 50px;
   cursor: pointer;
+  color: white;
+  transition: 0.8s;
+}
+.social ul li svg {
+  color: white;
+  font-size: 30px;
+  margin: auto;
 }
 .social.look {
   right: 14px;
 }
+.whatsapp {
+  background-color: rgb(10, 177, 10);
+}
+.email {
+  background-color: palevioletred;
+}
+.line {
+  background-color: green;
+}
+.click {
+  background-color: #ca4555;
+  /* animation-name: up;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
+}
+/* @keyframes up {
+  50% {
+    transform: translateY(20px);
+  }
+} */
