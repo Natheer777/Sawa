@@ -9,7 +9,7 @@
   width: 6vh;
   position: absolute;
   top: 50%;
-  left: 48%;
+  left: 46%;
   transform: translate(-50%, -50%);
   animation-name: Loading;
   animation-duration: 3s;
@@ -64,33 +64,6 @@ div#root {
   filter: blur(0);
   transform: translateX(0);
 }
-/* @keyframes up {
-  50% {
-    transform: translateY(20px);
-  }
-} */
-.up {
-  /* z-index: 10; */
-  /* position: fixed; */
-  /* bottom: 20px; */
-  /* right: -50px; */
-  border: none;
-  color: white;
-  background-color: #ca4555;
-  font-weight: bold;
-  font-size: 20px;
-  /* padding: 1; */
-  border-radius: 20px;
-  cursor: pointer;
-  /* transition: 0.9s; */
-  /* animation-name: up;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
-}
-/* .up.look {
-  right: 18px;
-} */
 
 ::-webkit-scrollbar {
   width: 8px;

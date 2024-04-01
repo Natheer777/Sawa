@@ -91,7 +91,7 @@ export default function Navbar() {
                   </a>
                   <a
                     onClick={() => {
-                      i18n.changeLanguage("jp");
+                      i18n.changeLanguage("ja");
                     }}
                     className="dropdown-item"
                     href="#"
