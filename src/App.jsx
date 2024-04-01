@@ -14,7 +14,6 @@ import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 
-
 const languages = [
   {
     code: "ja",
@@ -106,34 +105,6 @@ function App() {
     };
   }, []);
 
-  /////////////////////////////////
-  useEffect(() => {
-    const up = document.querySelectorAll(".up");
-
-    const handleScroll = () => {
-      window.scrollY >= 150
-        ? up.forEach((item) => item.classList.add("look"))
-        : up.forEach((item) => item.classList.remove("look"));
-    };
-
-    const handleScrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    up.forEach((item) => item.addEventListener("click", handleScrollToTop));
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      up.forEach((item) =>
-        item.removeEventListener("click", handleScrollToTop)
-      );
-    };
-  }, []);
-
   ////////////////////////////////////
 
   const [loading, setLoading] = useState(false);
@@ -144,49 +115,41 @@ function App() {
       setLoading(false);
     }, 5000);
   }, []);
-///////////////////////////////////
+  ///////////////////////////////////
 
+  const [showIcons, setShowIcons] = useState(false);
 
-const [showIcons, setShowIcons] = useState(false);
-
-const toggleIcons = () => {
-  setShowIcons(!showIcons);
-};
-
+  const toggleIcons = () => {
+    setShowIcons(!showIcons);
+  };
 
   return (
     <>
       <div className="social">
-
-      <ul onClick={toggleIcons} style={{ cursor: "pointer" }}>
-      <li className="click"><IoChatbubbleEllipsesOutline/></li>
-      {showIcons && (
-        <>
-        <li className="whatsapp">
-            <a href="https://wa.link/mr0gya">
-              <FaWhatsapp />
-            </a>
+        <ul onClick={toggleIcons} style={{ cursor: "pointer" }}>
+          <li className="click">
+            <IoChatbubbleEllipsesOutline />
           </li>
-          <li className="email">
-            <a href="mailto:contact@sawagroup.jp">
-              <MdEmail />
-            </a>
-          </li>
-          <li className="line">
-            <a href="https://line.me/ti/p/IuAqVt59QV">
-            <FaLine />
-            </a>
-          </li>
-          {/* <li>
-
-      <button className="up">
-        Up
-      </button>
-          </li> */}
-        </>
-      )}
-    </ul>
-
+          {showIcons && (
+            <>
+              <li className="line top">
+                <a href="https://line.me/ti/p/IuAqVt59QV">
+                  <FaLine />
+                </a>
+              </li>
+              <li className="email top">
+                <a href="mailto:contact@sawagroup.jp">
+                  <MdEmail />
+                </a>
+              </li>
+              <li className="whatsapp top">
+                <a href="https://wa.link/mr0gya">
+                  <FaWhatsapp />
+                </a>
+              </li>
+            </>
+          )}
+        </ul>
       </div>
       {loading ? (
         <img className="Loading" src={Logo} alt="" />
@@ -194,7 +157,7 @@ const toggleIcons = () => {
         <>
           <Router>
             <Routes>
-              <Route path= "/Sawa/" element={<Home/>}/>
+              <Route path="/Sawa/" element={<Home />} />
             </Routes>
           </Router>
         </>

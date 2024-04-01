@@ -113,14 +113,17 @@ div#root {
   color: white;
   transition: 0.9s;
 }
+.social ul {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column-reverse;
+}
 .social ul li {
-  /* background-color: var(--color--red); */
   margin-top: 6px;
   padding: 10px;
   border-radius: 50px;
   cursor: pointer;
   color: white;
-  transition: 0.8s;
 }
 .social ul li svg {
   color: white;
@@ -132,22 +135,16 @@ div#root {
 }
 .whatsapp {
   background-color: rgb(10, 177, 10);
+  transition-delay: 300ms;
 }
 .email {
   background-color: palevioletred;
+  transition-delay: 200ms;
 }
 .line {
   background-color: green;
+  transition-delay: 100ms;
 }
 .click {
   background-color: #ca4555;
-  /* animation-name: up;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
 }
-/* @keyframes up {
-  50% {
-    transform: translateY(20px);
-  }
-} */
