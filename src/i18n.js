@@ -13,7 +13,7 @@ const resources = {
   ar: {
     translation: translationAr,
   },
-  jp: {
+  ja: {
     translation: translationJp,
   },
 };
@@ -24,7 +24,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    supportedLngs: ["en", "ar", "jp"],
+    supportedLngs: ["en", "ar", "ja"],
     fallbackLng: "en",
     debug: true,
     detection: {

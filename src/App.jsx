@@ -12,9 +12,9 @@ import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 const languages = [
   {
-    code: "jp",
+    code: "ja",
     name: "japanis",
-    country_code: "fr",
+    country_code: "ja",
   },
   {
     code: "en",
