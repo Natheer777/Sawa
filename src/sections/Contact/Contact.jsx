@@ -9,13 +9,13 @@ const [t] = useTranslation()
 
   return (
     <>
-      <div className="container mb-5">
+      <div className="container mb-5" >
         <div className="Contact">
           <img src={Caontact} alt="" />
         </div>
 
 
-        <form method="POST" action="https://formsubmit.co/contact@sawagroup.jp" encType="multipart/form-data">
+        <form method="POST" action="https://formsubmit.co/contact@sawagroup.jp" encType="multipart/form-data" id="Contact">
         <label>{t("Name-form")}</label>
           <input type="text" name="user_name" required />
           <label>{t("Email-form")}</label>

@@ -9,8 +9,6 @@ import HttpApi from "i18next-http-backend";
 const resources = {
   en: {
     translation: translationEn,
-
-    
   },
   ar: {
     translation: translationAr,
