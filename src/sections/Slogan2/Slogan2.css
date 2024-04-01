@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 20vh; */
+    column-gap: 6vh;
+    row-gap: 10px;
+    margin-top: 6vh;
+    font-weight: bold;
+    /* color: var(--color--red); */
+  }
+  .card0,
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5{
+      margin-top: 10px;
+      color: #111111ae;
+      font-size: 12px;
+      width: 20vh;
+  }
+  .slogan_title{
+      color: var(--color--red);
+  }

@@ -1,0 +1,142 @@
+.img1 {
+  background-image: url("../../assets/Services/img1.webp");
+}
+.img2 {
+  background-image: url("../../assets/Services/img2.webp");
+}
+.img3 {
+  background-image: url("../../assets/Services/img3.webp");
+}
+.img4 {
+  background-image: url("../../assets/Services/img4.webp");
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+
+}
+
+.title {
+  width: 100%;
+  margin-top: 14vh;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--color--red);
+}
+.title h1 {
+  margin-bottom: 18vh;
+  width: 90%;
+  font-weight: bold;
+  font-size: 6vh;
+}
+.title p {
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.swiper-button-prev {
+  display: none;
+}
+.swiper-button-next {
+  display: none;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  /* display: none; */
+bottom: -7px;}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fce875b1;
+}
+
+
+@media screen and (min-width:850px) and (max-width:1030px ){
+ 
+ .img1,
+ .img2,
+ .img3,
+ .img4{
+  height: 60vh;
+ }
+}
+
+@media screen and (min-width:665px) and (max-width:860px ){
+ 
+ .img1,
+ .img2,
+ .img3,
+ .img4{
+  height: 50vh;
+ }
+}
+@media screen and (min-width:540px) and (max-width:665px ){
+  .img1,
+  .img2,
+  .img3,
+  .img4{
+   height: 40vh;
+  }
+  .title h1 {
+    font-size: 5.5vh;
+}
+.title p {
+    font-size: 2.8vh;
+}
+}
+@media screen and (min-width:476px) and (max-width:540px ){
+  .img1,
+  .img2,
+  .img3,
+  .img4{
+   height: 35vh;
+  } 
+  .title h1 {
+    font-size: 5vh;
+}
+.title p {
+    font-size: 2.8vh;
+}
+}
+
+@media screen and (min-width:400px) and (max-width:476px ){
+  .img1,
+  .img2,
+  .img3,
+  .img4{
+   height: 28vh;
+  } 
+   
+  .title h1 {
+    font-size: 4.5vh;
+}
+.title p {
+    font-size: 2.2vh;
+}
+
+}
+@media screen and (min-width:5px) and (max-width:400px ){
+  .img1,
+  .img2,
+  .img3,
+  .img4{
+   height: 22vh;
+  } 
+
+
+ 
+  .title h1 {
+      font-size: 4vh;
+  }
+  .title p {
+      font-size: 2.2vh;
+  }
+}

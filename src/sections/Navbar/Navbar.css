@@ -1,0 +1,46 @@
+.navbar-brand img{
+    width: 10vh;
+}
+.container-fluid{
+    background-color: var(--main--color);
+    z-index: 10;
+}
+.navbar{
+    height: 12vh;
+    background-color: var(--main--color);
+}
+.navbar ul li{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.navbar ul li a{
+    color: var(--color--red);
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar ul li a svg{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.item1{
+    transition-delay: 100ms;
+}
+.item2{
+    transition-delay: 200ms;
+}
+.item3{
+    transition-delay: 300ms;
+}
+.item4{
+    transition-delay: 400ms;
+}
+.item5{
+    transition-delay: 500ms;
+}
+
+.dropdown-menu[data-bs-popper]{
+    /* right: 0; */
+    left: -15vh;
+}

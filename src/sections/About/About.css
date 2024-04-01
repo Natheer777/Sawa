@@ -1,0 +1,20 @@
+.container {
+  margin-top: 10vh;
+}
+.about-title {
+  margin-top: 4vh;
+  color: var(--color--red);
+  /* margin-bottom: 10px; */
+}
+.about-details {
+  margin-top: 20px;
+  line-height: 2.5;
+  opacity: 0.9;
+  font-weight: 500;
+  font-size: 13px;
+}
+.about-img {
+  width: 100%;
+  margin-top: 8vh;
+}
+
