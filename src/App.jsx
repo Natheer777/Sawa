@@ -10,7 +10,7 @@ import cookies from "js-cookie";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
-import { SlEnvolopeLetter } from "react-icons/sl";
+// import { SlEnvolopeLetter } from "react-icons/sl";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 
