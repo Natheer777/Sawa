@@ -87,7 +87,7 @@ export default function Navbar() {
                     className="dropdown-item"
                     href="#"
                   >
-                    ُEnglish
+                    English
                   </a>
                   <a
                     onClick={() => {

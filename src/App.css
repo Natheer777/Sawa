@@ -1,11 +1,9 @@
 * {
 
-  font-family: 'Vollkorn, serif;'  ;
-  font-family: "Scheherazade New", serif;
-  /* font-family: "Noto Serif JP", serif; */
-  
+  font-family: "Zen Antique", "Vollkorn", "Noto Serif JP" ,"Scheherazade New", serif;
+
   font-weight: 900;
-  font-style:normal;
+  font-style: normal;
 }
 .Loading {
   width: 6vh;
@@ -21,16 +19,13 @@
 @keyframes Loading {
   0% {
     transform: scale(1);
-    
   }
   50% {
     transform: scale(1.5);
-    
   }
 
   100% {
     transform: scale(1);
-    
   }
 }
 

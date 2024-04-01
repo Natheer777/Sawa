@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import cookies from "js-cookie";
-import { PiArrowBendLeftUpBold } from "react-icons/pi";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
@@ -172,7 +171,7 @@ function App() {
         </ul>
       </div>
       <button className="up">
-        <PiArrowBendLeftUpBold />
+        Up
       </button>
       {loading ? (
         <img className="Loading" src={Logo} alt="" />
