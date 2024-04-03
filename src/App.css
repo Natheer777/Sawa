@@ -9,7 +9,7 @@
   width: 6vh;
   position: absolute;
   top: 50%;
-  left: 46%;
+  left: 45.5%;
   transform: translate(-50%, -50%);
   animation-name: Loading;
   animation-duration: 3s;
@@ -36,7 +36,7 @@
 div#root {
   background-color: var(--main--color);
 }
-/* .left {
+.left {
   opacity: 0;
   filter: blur(4px);
   transform: translateX(-2%);
@@ -63,7 +63,7 @@ div#root {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-} */
+}
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -108,15 +108,15 @@ div#root {
 }
 .whatsapp {
   background-color: rgb(10, 177, 10);
-  transition-delay: 300ms;
+  transition-delay: 150ms;
 }
 .email {
   background-color: palevioletred;
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 .line {
   background-color: green;
-  transition-delay: 100ms;
+  transition-delay: 50ms;
 }
 .click {
   background-color: #ca4555;
