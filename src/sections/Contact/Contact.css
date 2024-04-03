@@ -73,3 +73,6 @@ form {
   .visb{
     display: none;
   }
+  label{
+    margin-bottom: 8px;
+  }
