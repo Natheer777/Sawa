@@ -1,17 +1,17 @@
 
 
-import slogan_01 from '../assets/Icons/icon1.webp'
+import slogan_01 from '../assets/Icons/icon4.webp'
 import slogan_02 from '../assets/Icons/icon2.webp'
-import slogan_03 from '../assets/Icons/icon3.webp'
-import slogan_04 from '../assets/Icons/icon4.webp'
-import slogan_05 from '../assets/Icons/icon5.webp'
-import slogan_06 from '../assets/Icons/icon6.webp'
-import slogan_07 from '../assets/Icons/icon7.webp'
-import slogan_08 from '../assets/Icons/icon8.webp'
-import slogan_09 from '../assets/Icons/icon9.webp'
-import slogan_10 from '../assets/Icons/icon10.webp'
-import slogan_11 from '../assets/Icons/icon11.webp'
-import slogan_12 from '../assets/Icons/icon12.webp'
+import slogan_03 from '../assets/Icons/icon10.webp'
+import slogan_04 from '../assets/Icons/icon11.webp'
+import slogan_05 from '../assets/Icons/icon3.webp'
+import slogan_06 from '../assets/Icons/icon9.webp'
+import slogan_07 from '../assets/Icons/icon12.webp'
+import slogan_08 from '../assets/Icons/icon5.webp'
+import slogan_09 from '../assets/Icons/icon7.webp'
+import slogan_10 from '../assets/Icons/icon6.webp'
+import slogan_11 from '../assets/Icons/icon1.webp'
+import slogan_12 from '../assets/Icons/icon8.webp'
 
 const Slogan  = [
     {id : slogan_01 , Image : slogan_01},
