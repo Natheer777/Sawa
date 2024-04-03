@@ -45,3 +45,10 @@
     /* right: 0; */
     left: -15vh;
 }
+@media screen and (min-width:991px){
+ 
+
+    .container-fluid{
+        flex-direction: row;
+    }
+   }
