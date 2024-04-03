@@ -36,7 +36,7 @@
 div#root {
   background-color: var(--main--color);
 }
-.left {
+/* .left {
   opacity: 0;
   filter: blur(4px);
   transform: translateX(-2%);
@@ -63,7 +63,7 @@ div#root {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-}
+} */
 
 ::-webkit-scrollbar {
   width: 8px;
