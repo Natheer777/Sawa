@@ -56,4 +56,5 @@ form {
   }
   input[type="file"]{
     border: none;
+    color: transparent;
   }
