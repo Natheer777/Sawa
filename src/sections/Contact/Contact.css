@@ -58,3 +58,18 @@ form {
     border: none;
     color: transparent;
   }
+  .btnfolder{
+    padding:2vh 6vh;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid var(--color--red);
+
+  }
+  .btnfolder svg{
+    font-size: 4vh;
+    color: var(--color--red);
+  }
+  .visb{
+    display: none;
+  }

@@ -1,7 +1,7 @@
 import "./Contact.css";
-// import { useRef } from "react";
-// import emailjs from "@emailjs/browser";
 import {useTranslation} from 'react-i18next'
+import { FaFolderPlus } from "react-icons/fa";
+
 
 import Caontact from "../../assets/Services/اتصل بنا.webp";
 export default function Contact() {
@@ -25,7 +25,8 @@ const [t] = useTranslation()
           <label>{t("Textarea-form")}</label>
           <textarea name="message"></ textarea>
           <label>{t("File-form")}</label>
-          <input type="file" name="attachment" accept="image/png, image/jpeg ,image/jpg ,.xlsx , .pdf ,.docx , .doc "  />
+          <label className="btnfolder" htmlFor="btnfolder"><FaFolderPlus /></label>
+          <input type="file" className="visb" id="btnfolder" name="attachment" accept="image/png, image/jpeg ,image/jpg ,.xlsx , .pdf ,.docx , .doc "  />
           <input type="submit" value={t("Send-form")} />
           <input type="hidden" name="_captcha" value="false" />
 </form>
