@@ -93,7 +93,7 @@ function App() {
     const up = document.querySelectorAll(".social");
 
     const handleScroll = () => {
-      window.scrollY >= 150
+      window.scrollY >= 200
         ? up.forEach((item) => item.classList.add("look"))
         : up.forEach((item) => item.classList.remove("look"));
     };
