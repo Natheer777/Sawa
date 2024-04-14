@@ -21,6 +21,7 @@ justify-content: start;
     font-size: 20px;
     align-items: center;
     display: flex;
+    justify-content: start;
 }
 .navbar ul li a:hover{
     color: var(--color--red1);
@@ -72,4 +73,5 @@ justify-content: start;
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
