@@ -75,6 +75,15 @@ export default function Navbar() {
                 >
                   <a
                     onClick={() => {
+                      i18n.changeLanguage("ja");
+                    }}
+                    className="dropdown-item"
+                    // href="/#"
+                  >
+                    日本語
+                  </a>
+                  <a
+                    onClick={() => {
                       i18n.changeLanguage("en");
                     }}
                     className="dropdown-item"
@@ -90,15 +99,6 @@ export default function Navbar() {
                     // href="/#"
                   >
                     العربية
-                  </a>
-                  <a
-                    onClick={() => {
-                      i18n.changeLanguage("ja");
-                    }}
-                    className="dropdown-item"
-                    // href="/#"
-                  >
-                    日本語
                   </a>
                 </div>
               </li>

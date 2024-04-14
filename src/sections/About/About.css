@@ -3,6 +3,7 @@
 }
 .about-title {
   margin-top: 4vh;
+  font-size: 40px;
   color: var(--color--red1);
   /* margin-bottom: 10px; */
 }
@@ -11,7 +12,7 @@
   line-height: 2.5;
   opacity: 0.9;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
 }
 .about-img {
   width: 100%;
