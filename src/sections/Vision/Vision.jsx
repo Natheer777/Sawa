@@ -1,6 +1,6 @@
 import './Vision.css'
 import { useTranslation } from 'react-i18next'
-import VisionImg from '../../assets/Services/واجهة الموقع 2.webp'
+import VisionImg from '../../assets/Services/img2.webp'
 import { PiTargetBold } from "react-icons/pi";
 
 
