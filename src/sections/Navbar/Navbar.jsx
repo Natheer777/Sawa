@@ -19,7 +19,10 @@ export default function Navbar() {
   <ul>
     <li>  
           <h1 className=" left">{t("Header-h")}</h1>
+    </li>
+    <li>
           <h4 className=" right">{t("Header-p")}</h4>
+
     </li>
     <li> <a className="navbar-brand" href="#">
             <img src={Logo} alt="" />
