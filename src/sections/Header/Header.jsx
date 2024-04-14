@@ -55,10 +55,10 @@ export default function Header() {
         <SwiperSlide className='img3'> 
     */}
         </SwiperSlide>
-        <SwiperSlide className='img4'>
+        <SwiperSlide className='img2'>
    
         </SwiperSlide>
-        <SwiperSlide className='img5'>
+        <SwiperSlide className='img3'>
    
         </SwiperSlide>
 
