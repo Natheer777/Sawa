@@ -14,11 +14,10 @@ export default function Navbar() {
 
   return (
     <>
+<div className="container">
+
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand  ms-3 me-3" href="#">
-            <img src={Logo} alt="" />
-          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,7 +30,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end me-3"
+            className="collapse navbar-collapse justify-content-between"
             id="navbarNavDropdown"
           >
             <ul className="navbar-nav">
@@ -73,37 +72,41 @@ export default function Navbar() {
                 >
                   <a
                     onClick={() => {
-                      i18n.changeLanguage("ar");
-                    }}
-                    className="dropdown-item"
-                    href="#"
-                  >
-                    العربية
-                  </a>
-                  <a
-                    onClick={() => {
                       i18n.changeLanguage("en");
                     }}
                     className="dropdown-item"
-                    href="#"
+                    // href="/#"
                   >
                     English
+                  </a>
+                  <a
+                    onClick={() => {
+                      i18n.changeLanguage("ar");
+                    }}
+                    className="dropdown-item"
+                    // href="/#"
+                  >
+                    العربية
                   </a>
                   <a
                     onClick={() => {
                       i18n.changeLanguage("ja");
                     }}
                     className="dropdown-item"
-                    href="#"
+                    // href="/#"
                   >
                     日本語
                   </a>
                 </div>
               </li>
             </ul>
+          <a className="navbar-brand" href="#">
+            <img src={Logo} alt="" />
+          </a>
           </div>
         </div>
       </nav>
+            </div>
     </>
   );
 }

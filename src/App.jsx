@@ -6,6 +6,7 @@ import { Home } from "./pages/index";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import dir  from "i18next";
 import cookies from "js-cookie";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -14,6 +15,12 @@ import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 
 const languages = [
+  {
+    code: "ar",
+    name: "العربية",
+    country_code: "ar",
+    dir: "rtl",
+  },
   {
     code: "ja",
     name: "japanese ",
@@ -24,15 +31,24 @@ const languages = [
     name: "English",
     country_code: "gb",
   },
-  {
-    code: "ar",
-    name: "العربية",
-    dir: "rtl",
-    country_code: "sa",
-  },
 ];
 
 function App() {
+
+  // const { i18n } = useTranslation();
+
+  // useEffect(() => {
+  //   const currentLanguage = i18n.language;
+  //   if (currentLanguage === 'ar') {
+  //     document.documentElement.setAttribute('dir', 'rtl');
+  //   } else {
+  //     document.documentElement.setAttribute('dir', 'ltr');
+  //   }
+  // }, [i18n.language]);
+
+  ////
+
+
   const [t] = useTranslation();
   const [lan, setLan] = useState(navigator.language);
   useEffect(() => {
@@ -53,7 +69,7 @@ function App() {
   useEffect(() => {
     console.log("Setting page stuff");
     document.body.dir = currentLanguage.dir || "ltr";
-    document.title = t("app_title");
+    // document.title = t("app_title");
   }, [currentLanguage, t]);
 
   /////////////////////////////////////////////
@@ -112,7 +128,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 1000);
   }, []);
   ///////////////////////////////////
 

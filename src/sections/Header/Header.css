@@ -1,12 +1,6 @@
 .img1 {
   background-image: url("../../assets/Services/من نحن_.webp");
 }
-/* .img2 {
-  background-image: url("../../assets/Services/img2.webp");
-} */
-/* .img3 {
-  background-image: url("../../assets/Services/img3.webp");
-} */
 .img2 {
   background-image: url("../../assets/Services/img4.webp");
 }
@@ -27,7 +21,7 @@ background-image: url("../../assets/Services/اعمالنا_.webp");
 
 .title {
   width: 100%;
-  margin-top: 14vh;
+  margin-top: 8vh;
   background-color: transparent;
   text-align: center;
   display: flex;

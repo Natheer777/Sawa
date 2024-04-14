@@ -7,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
@@ -28,11 +27,12 @@ export default function Header() {
           <h1 className="position-absolute left">{t("Header-h")}</h1>
           <p className=" right">{t("Header-p")}</p>
         </div>
-        <div className="Main-img">
+        <div className="Main-img container">
 
        
 
         <Swiper
+        dir='ltr'
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -50,14 +50,6 @@ export default function Header() {
         <SwiperSlide className='img1'></SwiperSlide>
         <SwiperSlide className='img2'></SwiperSlide>
         <SwiperSlide className='img3'></SwiperSlide>
-        {/* </SwiperSlide>
-        <SwiperSlide className='img2'> 
-      */}
-        {/* </SwiperSlide>
-        <SwiperSlide className='img3'> 
-      */}
-
-    
       </Swiper>
 
 

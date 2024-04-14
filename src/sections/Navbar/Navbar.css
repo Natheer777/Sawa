@@ -4,7 +4,8 @@
 .container-fluid{
     background-color: var(--main--color);
     z-index: 10;
-    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* flex-direction: !important; */
 }
 .navbar{
     height: 12vh;
@@ -45,10 +46,10 @@
     /* right: 0; */
     left: -15vh;
 }
-@media screen and (min-width:991px){
+/* @media screen and (min-width:991px){
  
 
     .container-fluid{
         flex-direction: row;
     }
-   }
+   } */
