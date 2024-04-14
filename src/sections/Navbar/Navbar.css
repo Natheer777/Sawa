@@ -18,12 +18,14 @@ justify-content: start;
     margin-right: 6px;
 }
 .navbar ul li a{
-    color: var(--color--red1);
+    color: var(--color--red);
     font-size: 20px;
     align-items: center;
     display: flex;
 }
-
+.navbar ul li a:hover{
+    color: var(--color--red1);
+}
 .navbar ul li a svg{
     margin-right: 10px;
     margin-left: 10px;
@@ -55,3 +57,7 @@ justify-content: start;
         flex-direction: row;
     }
    } */
+
+   .dropdown-menu[data-bs-popper]{
+    left: 0;
+   }
