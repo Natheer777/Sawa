@@ -124,7 +124,7 @@ padding-bottom: 6px;
 @media screen and (min-width:5px) and (max-width:400px ){
   .img1,
   .img2,
-  .img3,{
+  .img3{
    height: 22vh;
   } 
 
