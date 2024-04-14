@@ -18,6 +18,9 @@ export default function Navbar() {
 
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            <img src={Logo} alt="" />
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -30,7 +33,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-between"
+            className="collapse navbar-collapse "
             id="navbarNavDropdown"
           >
             <ul className="navbar-nav">
@@ -100,9 +103,6 @@ export default function Navbar() {
                 </div>
               </li>
             </ul>
-          <a className="navbar-brand" href="#">
-            <img src={Logo} alt="" />
-          </a>
           </div>
         </div>
       </nav>

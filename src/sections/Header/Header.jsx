@@ -23,9 +23,9 @@ export default function Header() {
   return (
     <>
       <div className="container">
-        <div className="title  d-flex justify-content-center align-items-center">
-          <h1 className="position-absolute left">{t("Header-h")}</h1>
-          <p className=" right">{t("Header-p")}</p>
+        <div className="title">
+          <h1 className=" left">{t("Header-h")}</h1>
+          <h4 className=" right">{t("Header-p")}</h4>
         </div>
         <div className="Main-img container">
 

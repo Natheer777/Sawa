@@ -4,8 +4,10 @@
 .container-fluid{
     background-color: var(--main--color);
     z-index: 10;
-    justify-content: space-between;
-    /* flex-direction: !important; */
+    flex-direction: row-reverse;
+}
+.collapse .navbar-collapse{
+justify-content: start;
 }
 .navbar{
     height: 12vh;
