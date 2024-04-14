@@ -1,20 +1,22 @@
 .img1 {
   background-image: url("../../assets/Services/من نحن_.webp");
 }
-.img2 {
+/* .img2 {
   background-image: url("../../assets/Services/img2.webp");
-}
-.img3 {
+} */
+/* .img3 {
   background-image: url("../../assets/Services/img3.webp");
-}
+} */
 .img4 {
   background-image: url("../../assets/Services/img4.webp");
 }
+.img5 {
+background-image: url("../../assets/Services/اعمالنا_.webp");
+}
 
 .img1,
-.img2,
-.img3,
-.img4 {
+.img4,
+.img5 {
   background-size:contain;
   background-position: center;
   background-repeat: no-repeat;

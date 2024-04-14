@@ -48,14 +48,17 @@ export default function Header() {
       >
       
         <SwiperSlide className='img1'> 
-        </SwiperSlide>
+        {/* </SwiperSlide>
         <SwiperSlide className='img2'> 
-     
-        </SwiperSlide>
+      */}
+        {/* </SwiperSlide>
         <SwiperSlide className='img3'> 
-   
+    */}
         </SwiperSlide>
         <SwiperSlide className='img4'>
+   
+        </SwiperSlide>
+        <SwiperSlide className='img5'>
    
         </SwiperSlide>
 
