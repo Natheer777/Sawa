@@ -32,7 +32,7 @@
 :root {
   --main--color: #f8f3f0;
   --color--red1: #cb011a;
-  --color--red: #60292e;
+  --color--red: #111;
 }
 div#root {
   background-color: var(--main--color);
