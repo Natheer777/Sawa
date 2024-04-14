@@ -10,7 +10,6 @@
 justify-content: start;
 }
 .navbar{
-    height: 12vh;
     background-color: var(--main--color);
 }
 .navbar ul li{
@@ -72,4 +71,5 @@ justify-content: start;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
