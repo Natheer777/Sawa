@@ -2,7 +2,7 @@ import "./Services.css";
 import Data from "../../Data/Card_Services";
 import { Card_Services } from "../../components/index";
 import { useTranslation } from "react-i18next";
-import { MdDesignServices } from "react-icons/md";
+import { GrServices } from "react-icons/gr";
 
 export default function Services() {
   const [t] = useTranslation();
@@ -16,7 +16,7 @@ export default function Services() {
         <div className="row rowServices text-center">
           <div className="MainTitle">
             <h2 className="hidden ">
-              {t("Services-h")} <MdDesignServices />
+              {t("Services-h")} <GrServices />
             </h2>
           </div>
           <div className="CaRd">

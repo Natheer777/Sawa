@@ -29,6 +29,7 @@ justify-content: start;
 .navbar ul li a svg{
     margin-right: 10px;
     margin-left: 10px;
+    color: var(--color--red1);
 }
 .item1{
     transition-delay: 100ms;
@@ -46,10 +47,7 @@ justify-content: start;
     transition-delay: 500ms;
 }
 
-.dropdown-menu[data-bs-popper]{
-    /* right: 0; */
-    left: -15vh;
-}
+
 .dropdown-menu[data-bs-popper]{
  left: 0;
 }

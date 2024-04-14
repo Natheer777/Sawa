@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import Logo from "../../assets/Logo/سوىAI-01 (1).webp";
 import { FaHome } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
-import { MdDesignServices } from "react-icons/md";
+import {  GrServices } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
 import { LuLanguages } from "react-icons/lu";
 
@@ -50,7 +50,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item item3 hidden">
                 <a className="nav-link" href="#Services">
-              <MdDesignServices />    {t("Navbar-Services")}
+              <GrServices />    {t("Navbar-Services")}
                 </a>
               </li>
               <li className="nav-item item4 hidden">
