@@ -47,20 +47,15 @@ export default function Header() {
         className="mySwiper"
       >
       
-        <SwiperSlide className='img1'> 
+        <SwiperSlide className='img1'></SwiperSlide>
+        <SwiperSlide className='img2'></SwiperSlide>
+        <SwiperSlide className='img3'></SwiperSlide>
         {/* </SwiperSlide>
         <SwiperSlide className='img2'> 
       */}
         {/* </SwiperSlide>
         <SwiperSlide className='img3'> 
-    */}
-        </SwiperSlide>
-        <SwiperSlide className='img2'>
-   
-        </SwiperSlide>
-        <SwiperSlide className='img3'>
-   
-        </SwiperSlide>
+      */}
 
     
       </Swiper>

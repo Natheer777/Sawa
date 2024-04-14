@@ -66,8 +66,7 @@ padding-bottom: 6px;
  
  .img1,
  .img2,
- .img3,
- .img4{
+ .img3{
   height: 60vh;
  }
 }
@@ -76,16 +75,14 @@ padding-bottom: 6px;
  
  .img1,
  .img2,
- .img3,
- .img4{
+ .img3{
   height: 50vh;
  }
 }
 @media screen and (min-width:540px) and (max-width:665px ){
   .img1,
   .img2,
-  .img3,
-  .img4{
+  .img3{
    height: 40vh;
   }
   .title h1 {
@@ -98,8 +95,7 @@ padding-bottom: 6px;
 @media screen and (min-width:476px) and (max-width:540px ){
   .img1,
   .img2,
-  .img3,
-  .img4{
+  .img3{
    height: 35vh;
   } 
   .title h1 {
@@ -113,8 +109,7 @@ padding-bottom: 6px;
 @media screen and (min-width:400px) and (max-width:476px ){
   .img1,
   .img2,
-  .img3,
-  .img4{
+  .img3{
    height: 28vh;
   } 
    
@@ -129,8 +124,7 @@ padding-bottom: 6px;
 @media screen and (min-width:5px) and (max-width:400px ){
   .img1,
   .img2,
-  .img3,
-  .img4{
+  .img3,{
    height: 22vh;
   } 
 
