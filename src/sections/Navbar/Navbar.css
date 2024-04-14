@@ -50,13 +50,13 @@ justify-content: start;
     /* right: 0; */
     left: -15vh;
 }
-/* @media screen and (min-width:991px){
+@media screen and (min-width:991px) and (max-width:1030px){
  
 
-    .container-fluid{
-        flex-direction: row;
+    .navbar ul li a{
+        font-size: 10px;
     }
-   } */
+   }
 
    .dropdown-menu[data-bs-popper]{
     left: 0;
