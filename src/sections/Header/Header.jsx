@@ -14,19 +14,16 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 import "./Header.css";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 // import { MdSystemSecurityUpdateGood } from "react-icons/md";
 
 export default function Header() {
-  const [t] = useTranslation();
+  // const [t] = useTranslation();
   return (
     <>
       <div className="container">
-        <div className="title">
-          <h1 className=" left">{t("Header-h")}</h1>
-          <h4 className=" right">{t("Header-p")}</h4>
-        </div>
+ 
         <div className="Main-img container">
 
        

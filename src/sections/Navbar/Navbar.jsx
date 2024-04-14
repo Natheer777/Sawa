@@ -15,12 +15,21 @@ export default function Navbar() {
   return (
     <>
 <div className="container">
-
-      <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+<div className="title">
+  <ul>
+    <li>  
+          <h1 className=" left">{t("Header-h")}</h1>
+          <h4 className=" right">{t("Header-p")}</h4>
+    </li>
+    <li> <a className="navbar-brand" href="#">
             <img src={Logo} alt="" />
           </a>
+     </li>
+  </ul>
+         
+        </div>
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="container-fluid">
           <button
             className="navbar-toggler"
             type="button"
