@@ -54,13 +54,13 @@ justify-content: start;
 
 
 .title {
+    padding-top: 15px;
     width: 100%;
     background-color: transparent;
     text-align: center;
     color: var(--color--red1);
   }
   .title h1 {
-    margin-bottom: 20px;
     font-weight: bold;
     font-size: 7vh;
   }
