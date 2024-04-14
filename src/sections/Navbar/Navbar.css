@@ -15,7 +15,7 @@
     margin-right: 6px;
 }
 .navbar ul li a{
-    color: var(--color--red);
+    color: var(--color--red1);
     font-size: 13px;
     align-items: center;
     display: flex;

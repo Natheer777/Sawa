@@ -32,7 +32,7 @@ background-image: url("../../assets/Services/اعمالنا_.webp");
   text-align: center;
   display: flex;
   justify-content: center;
-  color: var(--color--red);
+  color: var(--color--red1);
 }
 .title h1 {
   margin-bottom: 18vh;
