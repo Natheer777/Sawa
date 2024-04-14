@@ -52,7 +52,9 @@
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   /* display: none; */
-bottom: -7px;}
+bottom: -7px;
+padding-bottom: 6px;
+}
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #fce875b1;
