@@ -19,7 +19,7 @@ justify-content: start;
 }
 .navbar ul li a{
     color: var(--color--red1);
-    font-size: 16px;
+    font-size: 20px;
     align-items: center;
     display: flex;
 }
