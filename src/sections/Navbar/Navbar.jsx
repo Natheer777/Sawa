@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <>
 <div className="container">
-<div className="title">
+<div className="title container">
   <ul>
     <li>  
           <h1 className=" left">{t("Header-h")}</h1>
