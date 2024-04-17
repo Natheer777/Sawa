@@ -6,16 +6,19 @@
     z-index: 10;
     flex-direction: row-reverse;
 }
+.navbar-toggler{
+    width: 100%;
+    margin-top: 10px;
+}
 .navbar-collapse{
 justify-content: center;
+}
+.navbar-nav{
+    gap: 15px;
 }
 .navbar{
     background-color: var(--main--color);
     padding: 0;
-}
-.navbar ul li{
-    /* margin-left: 6px;
-    margin-right: 6px; */
 }
 .navbar ul li a{
     color: var(--color--red);
@@ -75,6 +78,7 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 .title ul li {
     display: flex;
