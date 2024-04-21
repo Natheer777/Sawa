@@ -85,8 +85,7 @@ justify-content: center;
     justify-content: space-between;
 }
 .diffrint{
-    background-color: var(--color--red1);
     padding: 1.5vh;
-    color: #ffc94c;
+    color: #b38628;
     border-radius: 50px;
 }

@@ -21,7 +21,10 @@ export default function Navbar() {
           <h1 className=" left">{t("Header-h")}</h1>
     </li>
     <li className="diffrint">
+      <marquee behavior="" direction="">
+
           <h4 className=" right">{t("Header-p")}</h4>
+      </marquee>
 
     </li>
     <li> <a className="navbar-brand" href="#">
