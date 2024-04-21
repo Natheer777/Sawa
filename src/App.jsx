@@ -35,19 +35,9 @@ const languages = [
 
 function App() {
 
-  // const { i18n } = useTranslation();
 
-  // useEffect(() => {
-  //   const currentLanguage = i18n.language;
-  //   if (currentLanguage === 'ar') {
-  //     document.documentElement.setAttribute('dir', 'rtl');
-  //   } else {
-  //     document.documentElement.setAttribute('dir', 'ltr');
-  //   }
-  // }, [i18n.language]);
 
-  ////
-
+/////////////////////////////////////////////
 
   const [t] = useTranslation();
   const [lan, setLan] = useState(navigator.language);
@@ -103,22 +93,6 @@ function App() {
     });
   }, []);
 
-  //////////////////////////////////////////
-  useEffect(() => {
-    const up = document.querySelectorAll(".social");
-
-    const handleScroll = () => {
-      window.scrollY >= 200
-        ? up.forEach((item) => item.classList.add("look"))
-        : up.forEach((item) => item.classList.remove("look"));
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   ////////////////////////////////////
 

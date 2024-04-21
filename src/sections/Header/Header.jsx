@@ -4,11 +4,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { EffectFade, Pagination, Navigation } from 'swiper/modules';
 
 
 
@@ -27,28 +28,21 @@ export default function Header() {
         <div className="Main-img container">
 
        
-
         <Swiper
         dir='ltr'
         spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
+        effect={'fade'}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[EffectFade, Navigation, Pagination]}
         className="mySwiper"
       >
-      
         <SwiperSlide className='img1'></SwiperSlide>
         <SwiperSlide className='img2'></SwiperSlide>
         <SwiperSlide className='img3'></SwiperSlide>
       </Swiper>
-
 
 
         </div>
