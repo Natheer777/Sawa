@@ -21,10 +21,10 @@ background-image: url("../../assets/Services/اعمالنا_.webp");
 
 
 .swiper-button-prev {
-  /* display: none; */
+  display: none;
 }
 .swiper-button-next {
-  /* display: none; */
+  display: none;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   /* display: none; */
