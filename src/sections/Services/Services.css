@@ -16,7 +16,7 @@
   gap: 70px;
   justify-content: center;
   align-items: center;
-  row-gap: 25vh;
+  row-gap: 5vh;
 }
 .CaRd h4 {
   font-size: 25px;
@@ -27,7 +27,7 @@
 }
 
 .CaRd p {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   font-size: 17px;
   margin-bottom: 10px;
 }
@@ -43,11 +43,10 @@
 .serv10,
 .serv11,
 .serv12 {
- 
   line-height: 1.8;
   max-width: 20rem;
-  margin-bottom: 22vh;
-  height: 27rem;
+  /* margin-bottom: 12vh; */
+  height: 20rem;
 }
 
 /* @media screen and (min-width: 768px) and (max-width: 992px) {
