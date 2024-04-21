@@ -37,6 +37,7 @@ export default function Header() {
           effect={'fade'}
           autoplay={true}
           navigation={true}
+          loop={true}
           pagination={{ clickable: true }}
           modules={[EffectFade, Navigation, Pagination]}
           className="mySwiper"
