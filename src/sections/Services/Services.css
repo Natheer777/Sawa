@@ -2,6 +2,13 @@
   color: var(--color--red1);
   margin-bottom: 5vh;
 }
+.MainTitle h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.MainTitle h2 svg{
+  font-size: 30px;
+}
 
 .CaRd {
   display: flex;
@@ -11,7 +18,7 @@
   align-items: center;
 }
 .CaRd h4 {
-  font-size: 17px;
+  font-size: 18px;
   color: var(--color--red1);
   margin-top: 20px;
   font-weight: bold;
@@ -20,7 +27,7 @@
 
 .CaRd p {
   opacity: 0.7;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 .serv1,
