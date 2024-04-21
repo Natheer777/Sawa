@@ -1,7 +1,6 @@
 * {
   font-family: "Zen Antique", "Vollkorn", "Noto Serif JP", "Scheherazade New",
     serif;
-
   font-weight: 900;
   font-style: normal;
 }
@@ -71,12 +70,12 @@ div#root {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #f5da8898;
+  background-color: var(--color--red1);
   cursor: pointer;
 }
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background-color: #eeb50998;
-}
+} */
 
 .social {
   z-index: 10;
