@@ -20,7 +20,7 @@ export default function Navbar() {
     <li>  
           <h1 className=" left">{t("Header-h")}</h1>
     </li>
-    <li>
+    <li className="diffrint">
           <h4 className=" right">{t("Header-p")}</h4>
 
     </li>

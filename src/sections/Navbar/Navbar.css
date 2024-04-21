@@ -84,3 +84,9 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
 }
+.diffrint{
+    background-color: var(--color--red1);
+    padding: 1.5vh;
+    color: #ffc94c;
+    border-radius: 50px;
+}
