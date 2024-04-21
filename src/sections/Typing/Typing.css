@@ -7,7 +7,8 @@
   .typing-demo {
     width: 100%;
     margin-top: 15px;
-    font-size: medium;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
     color: var(--color--red);
   }
