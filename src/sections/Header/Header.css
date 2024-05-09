@@ -93,9 +93,11 @@ padding-bottom: 6px;
   .img3{
    height: 28vh;
   } 
-   
+   .navbar-brand img{
+    width: 8vh;
+   }
   .title h1 {
-    font-size: 4.5vh;
+    font-size: 3.3vh;
 }
 .title h4 {
     font-size: 2.2vh;
@@ -114,7 +116,7 @@ padding-bottom: 6px;
 }
  
   .title h1 {
-      font-size: 4vh;
+      font-size: 3vh;
   }
   .title h4 {
       font-size: 2vh;
