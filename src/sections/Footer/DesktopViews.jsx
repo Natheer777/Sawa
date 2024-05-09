@@ -1,22 +1,25 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+
 const DesktopViewButton = () => {
-  const [t] = useTranslation()
-  const [setDesktopView] = useState(false);
+  // const [t] = useTranslation();
+  const [desktopView, setDesktopView] = useState(false);
 
   const requestDesktopSite = () => {
     const userAgent = navigator.userAgent.toLowerCase();
     if (userAgent.match(/(iphone|ipod|ipad|android)/)) {
       const viewport = document.querySelector("meta[name=viewport]");
-      viewport.setAttribute('content', 'width=1024');
-    //   window.location.reload();
+      if (viewport) {
+        viewport.setAttribute('content', 'width=1024');
+        // window.location.reload(); // Reload the page to apply changes
+      }
     }
     setDesktopView(true);
   };
 
   return (
     <div>
-      <button onClick={requestDesktopSite}>{t("desktop")}</button>
+      <button onClick={requestDesktopSite}>desktop</button>
     </div>
   );
 };

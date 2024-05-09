@@ -58,3 +58,12 @@ svg{
 a{
   color:antiquewhite;
 }
+.Ulfooter{
+  display: flex;
+  justify-content: space-evenly;
+}
+.App button{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -60,5 +60,6 @@
     "Phone-form": "電話番号",
     "Textarea-form": "メッセージの内容",
     "File-form": "ファイルを選択",
-    "Send-form": "送信"
+    "Send-form": "送信",
+    "desktop" : "デスクトップ表示"
 }

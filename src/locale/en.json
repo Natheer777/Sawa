@@ -60,5 +60,6 @@
     "Phone-form" : "Phone Number",
     "Textarea-form" : "Message Content",
     "File-form" : "Select File",
-    "Send-form" : "Send"
+    "Send-form" : "Send",
+    "desktop" : "Desktop view"
 }

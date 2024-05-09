@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import logo from "../../assets/Logo/سوىAI-01 (1).webp";
 import { useTranslation } from "react-i18next";
+import DesktopViewButton from "../Footer/DesktopViews";
 export default function Footer() {
   const [t] = useTranslation();
   return (
@@ -71,10 +72,17 @@ export default function Footer() {
             className="text-center p-3"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
-            &copy; {new Date().getFullYear()}
+            <ul className="Ulfooter">
+              <li>&copy; {new Date().getFullYear()}
             <a className="text-white">
               Copyright © 2022 SAWA GROUP LLC. All Rights Reserved.
-            </a>
+            </a></li>
+              <li className="App">       
+      <DesktopViewButton />
+    </li>
+            </ul>
+            
+     
           </div>
         </MDBFooter>
       </footer>
