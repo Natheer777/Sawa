@@ -15,7 +15,7 @@ export default function Services() {
       <div className="container" id="Services">
         <div className="row rowServices ">
           <div className="MainTitle">
-            <h2 className="hidden ">
+            <h2 className="hidden text-center">
               {t("Services-h")} <GrServices />
             </h2>
           </div>

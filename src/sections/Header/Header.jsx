@@ -40,6 +40,7 @@ export default function Header() {
           loop={true}
           pagination={{ clickable: true }}
           modules={[EffectFade, Navigation, Pagination]}
+          onAutoplay={{ delay: 10000 }} 
           className="mySwiper"
         >
           <SwiperSlide className='img1'></SwiperSlide>
