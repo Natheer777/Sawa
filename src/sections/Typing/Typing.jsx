@@ -6,7 +6,7 @@ export default function Typing() {
   return (
     <>
       <div className="container">
-        <div className="wrapper">
+        <div>
           <div className="typing-demo">
             <LuHeartHandshake /> {t("Main")}
           </div>

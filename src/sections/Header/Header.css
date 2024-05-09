@@ -42,7 +42,16 @@ padding-bottom: 6px;
  .img1,
  .img2,
  .img3{
-  height: 60vh;
+  height: 17vh;
+ }
+ .title h1{
+  font-size: 4vh;
+ }
+ .navbar-brand img{
+  width: 8vh;
+ }
+ .title h4{
+  font-size: 2vh;
  }
 }
 

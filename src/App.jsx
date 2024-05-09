@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
-
+import DesktopViewButton from "./components/DesktopViews/DesktopViews";
 const languages = [
   {
     code: "ar",
@@ -114,6 +114,13 @@ function App() {
 
   return (
     <>
+
+
+
+              <div className="App">
+      <h1>تطبيق React لعرض الموقع بشكل سطح المكتب</h1>
+      <DesktopViewButton />
+    </div>
       <div className="social">
         <ul onClick={toggleIcons} style={{ cursor: "pointer" }}>
           <li className="click">
@@ -140,9 +147,9 @@ function App() {
           )}
         </ul>
       </div>
-      {loading ? (
+      {/* {loading ? (
         <img className="Loading" src={Logo} alt="" />
-      ) : (
+      ) : ( */}
         <>
           <Router>
             <Routes>
@@ -150,7 +157,7 @@ function App() {
             </Routes>
           </Router>
         </>
-      )}
+      {/* )} */}
     </>
   );
 }
