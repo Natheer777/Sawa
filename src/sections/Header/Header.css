@@ -54,10 +54,10 @@ padding-bottom: 6px;
   height: 50vh;
  }
  .title h1{
-  font-size: 5.5vh;
+  font-size: 6vh;
  }
  .title h4{
-  font-size: 2.5vh;
+  font-size: 3vh;
  }
 }
 @media screen and (min-width:540px) and (max-width:665px ){
@@ -67,7 +67,7 @@ padding-bottom: 6px;
    height: 40vh;
   }
   .title h1 {
-    font-size: 5vh;
+    font-size: 5.5vh;
 }
 .title h4 {
     font-size: 2.8vh;
@@ -80,10 +80,10 @@ padding-bottom: 6px;
    height: 35vh;
   } 
   .title h1 {
-    font-size: 4.2vh;
+    font-size: 5vh;
 }
 .title h4 {
-    font-size: 2.5vh;
+    font-size: 2.8vh;
 }
 }
 
@@ -94,13 +94,13 @@ padding-bottom: 6px;
    height: 28vh;
   } 
    .navbar-brand img{
-    width: 8vh;
+    width: 10vh;
    }
   .title h1 {
-    font-size: 3.3vh;
+    font-size: 5vh;
 }
 .title h4 {
-    font-size: 2.2vh;
+    font-size: 2.5vh;
 }
 
 }
@@ -112,13 +112,13 @@ padding-bottom: 6px;
   } 
 
 .navbar-brand img{
-  width: 8vh;
+  width: 9vh;
 }
  
   .title h1 {
-      font-size: 3vh;
+      font-size: 5vh;
   }
   .title h4 {
-      font-size: 2vh;
+      font-size: 2.5vh;
   }
 }

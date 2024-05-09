@@ -20,19 +20,19 @@ export default function Navbar() {
     <li>  
           <h1 className=" left">{t("Header-h")}</h1>
     </li>
-    <li className="diffrint">
+    <li> <a className="navbar-brand" href="#">
+            <img src={Logo} alt="" />
+          </a>
+     </li>
+  </ul>
+    <p className="diffrint mt-3">
     <marquee direction={i18n.language === 'ar' ? 'right' : 'left'}>
       <h4 className={i18n.language === 'ar' ? 'left' : 'right'}>
         {t("Header-p")}
       </h4>
     </marquee>
 
-    </li>
-    <li> <a className="navbar-brand" href="#">
-            <img src={Logo} alt="" />
-          </a>
-     </li>
-  </ul>
+    </p>
          
         </div>
       <nav className="navbar navbar-expand-lg navbar-light">

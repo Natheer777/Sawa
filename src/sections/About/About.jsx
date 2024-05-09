@@ -8,7 +8,7 @@ export default function About() {
   const [t] = useTranslation()
   return (
     <>
-    <div className="container mt-3" id="about">
+    <div className="container mt-5" id="about">
       <div className="row">
         <div className="col-lg-6">
           <h2 className="about-title right">{t("About-h")}<IoPerson /></h2>

@@ -1,5 +1,5 @@
 .navbar-brand img{
-    width: 10vh;
+    width: 12vh;
 }
 .container-fluid{
     background-color: var(--main--color);
@@ -85,7 +85,6 @@ justify-content: center;
     justify-content: space-between;
 }
 .diffrint{
-    padding: 1.5vh;
     color: #b38628;
     border-radius: 50px;
 }
