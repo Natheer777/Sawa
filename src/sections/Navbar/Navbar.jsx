@@ -21,7 +21,7 @@ export default function Navbar() {
           <li>
             <h1 className="left">{t('Header-h')}</h1>
           </li>
-          <li className="diffrint">{t('Header-p')}</li>
+          <li className="diffrint" lang={i18n.language}>{t('Header-p')}</li>
           <li>
             <a className="navbar-brand" href="#">
               <img src={Logo} alt="" />
