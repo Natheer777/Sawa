@@ -6,7 +6,7 @@ import VisionImg from '../../assets/Services/img2.webp'
 
 export default function Vision() {
 
-    const [t] = useTranslation() 
+    const [t , i18n] = useTranslation() 
 
   return (
     <>
@@ -15,7 +15,7 @@ export default function Vision() {
       <div className="row">
         <div className="col-lg-6">
           <h2 className="vision-title right">{t("Vision-h")}</h2>
-          <p className="vision-details right">{t("Vision-p")}</p>
+          <p className="vision-details right" lang={i18n.language}>{t("Vision-p")}</p>
         </div>
         <div className="col-lg-6">
           <img className="vision-img left" src={VisionImg} alt="" />
