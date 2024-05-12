@@ -1,5 +1,5 @@
 .navbar-brand img{
-    width: 12vh;
+    width: 14vh;
 }
 .container-fluid{
     background-color: var(--main--color);
@@ -86,13 +86,14 @@ justify-content: center;
     justify-content: space-between;
 }
 .diffrint{
-    background-image:linear-gradient(to right, #fce775, #8a5e10);
+    background-image: linear-gradient(to right, #ebd453, #8a5e10);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-radius: 50px;
-    margin-top: 12px;
+    margin-top: 22px;
     width: 70vh;
     font-size: 1.2rem;
+    padding-bottom: 10px;
 }
 
 .typing-demo {
