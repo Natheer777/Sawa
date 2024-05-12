@@ -27,7 +27,7 @@ export default function Navbar() {
           </a>
      </li>
   </ul>
-    <p className="mt-3">
+    <p className="mt-3 m-0">
     {/* <marquee direction={i18n.language === 'ar' ? 'right' : 'left'}> */}
       {/* <h4 className={i18n.language === 'ar' ? 'left' : 'right'}> */}
       <div className="typing-demo">

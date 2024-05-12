@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <div className="container">
-      <div className="Main-img container">
+      <div className="Main-img container p-0">
         <Swiper
           ref={swiperRef}
           dir='ltr'
