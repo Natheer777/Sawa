@@ -22,14 +22,14 @@ export default function Header() {
           nextButton.click();
         }
       }
-    }, 3000);
+    }, 6000);
 
     return () => clearInterval(intervalId);
   }, []);
 
   return (
     <div className="container">
-      <div className="Main-img container p-0">
+      <div className="Main-img container">
         <Swiper
           ref={swiperRef}
           dir='ltr'

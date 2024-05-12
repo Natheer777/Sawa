@@ -20,51 +20,51 @@ export default function Services() {
             </h2>
           </div>
           <div className="CaRd">
-            <div className="serv1 top">
+            <div className="serv1 top Regular shadow">
               {card[0]} <h4>{t("Services-card1T")}</h4>{" "}
               <p>{t("Services-card1")}</p>
             </div>
-            <div className="serv2 top">
+            <div className="serv2 top Regular shadow">
               {card[1]} <h4>{t("Services-card2T")}</h4>{" "}
               <p>{t("Services-card2")}</p>
             </div>
-            <div className="serv3 top">
+            <div className="serv3 top Regular shadow">
               {card[2]} <h4>{t("Services-card3T")}</h4>{" "}
               <p>{t("Services-card3")}</p>
             </div>
-            <div className="serv4 top">
+            <div className="serv4 top Regular shadow">
               {card[3]} <h4>{t("Services-card4T")}</h4>{" "}
               <p>{t("Services-card4")}</p>
             </div>
-            <div className="serv5 top">
+            <div className="serv5 top Regular shadow">
               {card[4]} <h4>{t("Services-card5T")}</h4>{" "}
               <p>{t("Services-card5")}</p>
             </div>
-            <div className="serv6 top">
+            <div className="serv6 top Regular shadow">
               {card[5]} <h4>{t("Services-card6T")}</h4>{" "}
               <p>{t("Services-card6")}</p>
             </div>
-            <div className="serv7 top">
+            <div className="serv7 top Regular shadow">
               {card[6]} <h4>{t("Services-card7T")}</h4>{" "}
               <p>{t("Services-card7")}</p>
             </div>
-            <div className="serv8 top">
+            <div className="serv8 top Regular shadow">
               {card[7]} <h4>{t("Services-card8T")}</h4>{" "}
               <p>{t("Services-card8")}</p>
             </div>
-            <div className="serv9 top">
+            <div className="serv9 top Regular shadow">
               {card[8]} <h4>{t("Services-card9T")}</h4>{" "}
               <p>{t("Services-card9")}</p>
             </div>
-            <div className="serv10 top">
+            <div className="serv10 top Regular shadow">
               {card[9]} <h4>{t("Services-card10T")}</h4>{" "}
               <p>{t("Services-card10")}</p>
             </div>
-            <div className="serv11 top">
+            <div className="serv11 top Regular shadow">
               {card[10]}
               <h4>{t("Services-card11T")}</h4> <p>{t("Services-card11")}</p>
             </div>
-            <div className="serv12 top">
+            <div className="serv12 top Regular shadow">
               {card[11]}
               <h4>{t("Services-card12T")}</h4> <p>{t("Services-card12")}</p>
             </div>

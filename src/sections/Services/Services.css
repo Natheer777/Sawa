@@ -10,16 +10,21 @@
   font-size: 30px;
 }
 
+
+
+
+/* Styling for the .CaRd container */
 .CaRd {
   display: flex;
   flex-wrap: wrap;
-  gap: 70px;
-  justify-content: center;
-  align-items: center;
-  row-gap: 5vh;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
+
+/* Styling for h4 elements inside .CaRd */
 .CaRd h4 {
-  font-size: 25px;
+  font-size: 22px;
   color: var(--color--red1);
   margin-top: 20px;
   font-weight: bold;
@@ -27,13 +32,15 @@
   text-align: center;
 }
 
+/* Styling for p elements inside .CaRd */
 .CaRd p {
-  /* opacity: 0.7; */
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 10px;
   justify-content: start;
   display: flex;
 }
+
+/* Common styling for serv1 to serv12 classes */
 .serv1,
 .serv2,
 .serv3,
@@ -46,25 +53,9 @@
 .serv10,
 .serv11,
 .serv12 {
-  line-height: 1.8;
+  line-height: 2;
   max-width: 20rem;
-  /* margin-bottom: 12vh; */
-  height: 36rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
 }
-
-/* @media screen and (min-width: 768px) and (max-width: 992px) {
-  .rowServices {
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 578px) and (max-width: 768px) {
-  .rowServices {
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 1px) and (max-width: 578px) {
-  .rowServices {
-    flex-direction: column;
-  }
-} */

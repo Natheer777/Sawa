@@ -22,7 +22,7 @@ form {
       min-width: 100%;
       width: 100%;
       max-height: 100px;
-      min-height: 100px;
+      min-height: 200px;
       padding: 7px;
       outline: none;
       border-radius: 5px;
@@ -42,8 +42,8 @@ form {
       cursor: pointer;
       background: var(--color--red1);
       color: white;
-      padding-top: 2vh;
-      padding-bottom: 2vh;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
     }
   }
   input[type="file"]::file-selector-button{
@@ -75,4 +75,8 @@ form {
   }
   label{
     margin-bottom: 8px;
+  }
+  .button.delete-file-btn{
+    padding: 12px;
+    border-radius: 10px;
   }

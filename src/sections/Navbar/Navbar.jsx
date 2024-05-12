@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Logo from '../../assets/Logo/سوىAI-01 (1).webp';
 import { FaHome } from "react-icons/fa";
