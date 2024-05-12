@@ -19,6 +19,7 @@ justify-content: center;
 .navbar{
     background-color: var(--main--color);
     padding: 0;
+
 }
 .navbar ul li a{
     color: var(--color--red);
@@ -87,4 +88,6 @@ justify-content: center;
 .diffrint{
     color: #b38628;
     border-radius: 50px;
+    margin-top: 12px;
+    margin-right: 5rem;
 }

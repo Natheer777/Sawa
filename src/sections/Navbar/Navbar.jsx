@@ -8,7 +8,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { LuLanguages } from "react-icons/lu";
 
 
-
 export default function Navbar() {
   const [t, i18n] = useTranslation();
 
@@ -20,17 +19,22 @@ export default function Navbar() {
     <li>  
           <h1 className=" left">{t("Header-h")}</h1>
     </li>
+    <li className="diffrint">
+    {t("Header-p")}
+    </li>
     <li> <a className="navbar-brand" href="#">
             <img src={Logo} alt="" />
           </a>
      </li>
   </ul>
-    <p className="diffrint mt-3">
-    <marquee direction={i18n.language === 'ar' ? 'right' : 'left'}>
-      <h4 className={i18n.language === 'ar' ? 'left' : 'right'}>
-        {t("Header-p")}
-      </h4>
-    </marquee>
+    <p className="mt-3">
+    {/* <marquee direction={i18n.language === 'ar' ? 'right' : 'left'}> */}
+      {/* <h4 className={i18n.language === 'ar' ? 'left' : 'right'}> */}
+      <div className="typing-demo">
+         {t("Main")}
+          </div>
+      
+    {/* </marquee> */}
 
     </p>
          
