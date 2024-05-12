@@ -86,9 +86,7 @@ justify-content: center;
     justify-content: space-between;
 }
 .diffrint{
-    background-image: linear-gradient(to right, #ebd453, #8a5e10);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+     color:##c39010;
     border-radius: 50px;
     margin-top: 22px;
     width: 70vh;
