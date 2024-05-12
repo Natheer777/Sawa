@@ -13,9 +13,9 @@ export default function Home() {
       <Header />
       <Typing />
       <About />
-      <Slogan />
+      {/* <Slogan /> */}
       <Vision />
-      <Slogan2 />
+      {/* <Slogan2 /> */}
       <Services />
       <Contact />
       <Footer />

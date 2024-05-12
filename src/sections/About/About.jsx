@@ -1,6 +1,6 @@
 import "./About.css"
-import AboutImg from '../../assets/Services/img3.webp'
-import { IoPerson } from "react-icons/io5";
+import AboutImg from '../../assets/Services/img4.webp'
+// import { IoPerson } from "react-icons/io5";
 
 
 import {useTranslation} from 'react-i18next'
@@ -11,7 +11,7 @@ export default function About() {
     <div className="container" id="about">
       <div className="row">
         <div className="col-lg-6">
-          <h2 className="about-title right">{t("About-h")}<IoPerson /></h2>
+          <h2 className="about-title right">{t("About-h")}</h2>
           <p className="about-details right">{t("About-p")}</p>           
        
         </div>
