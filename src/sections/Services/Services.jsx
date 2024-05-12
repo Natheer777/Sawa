@@ -2,7 +2,7 @@ import "./Services.css";
 import Data from "../../Data/Card_Services";
 import { Card_Services } from "../../components/index";
 import { useTranslation } from "react-i18next";
-import { GrServices } from "react-icons/gr";
+// import { GrServices } from "react-icons/gr";
 
 export default function Services() {
   const [t] = useTranslation();
@@ -12,11 +12,11 @@ export default function Services() {
   });
   return (
     <>
-      <div className="container" id="Services">
+      <div className="container mt-5" id="Services">
         <div className="row rowServices ">
           <div className="MainTitle">
-            <h2 className="hidden text-center">
-              {t("Services-h")} <GrServices />
+            <h2 className="hidden">
+              {t("Services-h")}
             </h2>
           </div>
           <div className="CaRd">
