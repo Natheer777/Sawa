@@ -39,7 +39,7 @@ export default function Navbar() {
     </p>
          
         </div>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light mt-4">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
