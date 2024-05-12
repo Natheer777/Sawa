@@ -13,12 +13,12 @@ export default function Vision() {
     
     <div className="container">
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-12">
           <h2 className="vision-title right">{t("Vision-h")}</h2>
           <p className="vision-details right" lang={i18n.language}>{t("Vision-p")}</p>
         </div>
         <div className="col-lg-6">
-          <img className="vision-img left" src={VisionImg} alt="" />
+          {/* <img className="vision-img left" src={VisionImg} alt="" /> */}
         </div>
       </div>
     </div>
