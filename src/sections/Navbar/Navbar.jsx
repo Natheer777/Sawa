@@ -30,11 +30,13 @@ export default function Navbar() {
     <p className="mt-3 m-0">
     {/* <marquee direction={i18n.language === 'ar' ? 'right' : 'left'}> */}
       {/* <h4 className={i18n.language === 'ar' ? 'left' : 'right'}> */}
+    {/* </marquee> */}
       <div className="typing-demo">
+        <h5 lang={i18n.language}>
          {t("Main")}
+        </h5>
           </div>
       
-    {/* </marquee> */}
 
     </p>
          

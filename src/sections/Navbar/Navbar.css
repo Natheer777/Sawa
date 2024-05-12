@@ -86,11 +86,24 @@ justify-content: center;
     justify-content: space-between;
 }
 .diffrint{
-    background-image:linear-gradient(to right, #f1d15e, #ba881e);
+    background-image:linear-gradient(to right, #fce775, #8a5e10);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-radius: 50px;
     margin-top: 12px;
-    width: 80vh;
+    width: 70vh;
     font-size: 1.2rem;
 }
+
+.typing-demo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    line-height: 2;
+    color: var(--color--red);
+  }
+  .typing-demo h5[lang="ja"]{
+    font-size: 15px;
+    }

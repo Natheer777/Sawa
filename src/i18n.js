@@ -2,7 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import translationAr from "./locale/ar.json";
 import translationEn from "./locale/en.json";
-import translationJp from "./locale/jp.json";
+import translationJp from "./locale/ja.json";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 
@@ -28,7 +28,7 @@ i18n
     fallbackLng: "en",
     debug: true,
     detection: {
-      order: ["path", "cookie", "htmlTag"],
+      order: ["path", "cookie", "htmlTag" , "subdomain"],
       caches: ["cookie"],
     },
     backend: {
