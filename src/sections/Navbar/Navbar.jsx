@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="title container">
         <ul>
           <li>
-            <h1 className="left">{t('Header-h')}</h1>
+            <h1 className="left" lang={i18n.language}>{t('Header-h')}</h1>
           </li>
           <li className="diffrint" lang={i18n.language}>{t('Header-p')}</li>
           <li>

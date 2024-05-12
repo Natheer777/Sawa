@@ -69,6 +69,12 @@ justify-content: center;
     font-size: 2rem;
     margin: 0;
   }
+  .title h1[lang="ar"]{
+    font-size: 2.2rem;
+  }
+  .diffrint[lang="ar"]{
+    font-size: 1.5rem;
+  }
   .title h4 {
     font-size: 3vh;
     font-weight: bold;
@@ -94,7 +100,7 @@ justify-content: center;
     padding-bottom: 10px;
 }
 .diffrint[lang="ar"]{
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .typing-demo {
