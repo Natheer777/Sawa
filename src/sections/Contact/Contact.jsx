@@ -35,7 +35,7 @@ export default function Contact() {
         <input type="number" name="user_number" required />
 
         <label>{t('Textarea-form')}</label>
-        <textarea name="message"></textarea>
+        <textarea name="message" required></textarea>
 
         <label>{t('File-form')}</label>
         <div className="file-upload-container">

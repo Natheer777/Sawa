@@ -17,7 +17,7 @@ export default function Footer() {
           className="text-white text-center text-lg-left"
         >
           <MDBContainer className="p-4">
-            <MDBRow>
+            <MDBRow className="rowFooter" >
               <MDBCol lg="3" md="4">
                 <div className="text-uppercase">
                   <img className="Logo_Footer" src={logo} alt="" />

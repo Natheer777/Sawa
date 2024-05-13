@@ -18,11 +18,10 @@
   display: flex;
   flex-wrap: wrap;
 }
-ul {
-  list-style: none;
-}
+
 .footer ul li {
-opacity: 0.8;
+  margin-bottom: 10px;
+/* opacity: 0.8; */
 }
 
 .logo_white {
@@ -39,23 +38,14 @@ opacity: 0.8;
 
 .adress {
   font-size: 18px;
-  margin-bottom: 10px;
-  line-height: 2;
-  opacity: 0.8;
 }
 
-.list-unstyled{
-    display: flex;
-    justify-content:space-around;
-    gap: 25px;
-    margin-top: 35px;
-    flex-wrap: wrap;
 
-}
 svg{
   font-size: 20px;
 }
 a{
+text-decoration: none;
   color:antiquewhite;
 }
 .Ulfooter{
@@ -66,4 +56,7 @@ a{
   border: none;
   padding: 10px;
   border-radius: 10px;
+}
+.rowFooter{
+  flex-direction: row-reverse;
 }

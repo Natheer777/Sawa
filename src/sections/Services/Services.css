@@ -21,20 +21,26 @@
 
 /* Styling for h4 elements inside .CaRd */
 .CaRd h4 {
+  margin: 0;
   font-size: 22px;
   color: var(--color--red1);
-  margin-top: 20px;
+  margin-top: 6px;
   font-weight: bold;
-  margin-bottom: 20px;
   text-align: center;
+}
+.CaRd p[lang="ja"]{
+  line-height: 2.5;
+}
+.CaRd p[lang="ar"]{
+line-height: 2;
 }
 
 /* Styling for p elements inside .CaRd */
 .CaRd p {
   font-size: 20px;
-  margin-bottom: 10px;
   justify-content: start;
   display: flex;
+  padding: 5px;
 }
 
 /* Common styling for serv1 to serv12 classes */
@@ -50,13 +56,8 @@
 .serv10,
 .serv11,
 .serv12 {
-  align-items: center;
   max-width: 20rem;
-  padding: 10px;
-  padding-bottom: 10vh;
-  height: 39.6rem;
+  height: 39rem;
   border-radius: 10px;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
