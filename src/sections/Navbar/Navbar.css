@@ -152,4 +152,8 @@ justify-content: center;
       .lanBtn{
         border: none;
         background-color: transparent;
+        font-size: 12px;
+      }
+      .dropdown-toggle::after{
+        display: none;
       }

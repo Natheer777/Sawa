@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   gap: 50px;
   justify-content: space-between;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 /* Styling for h4 elements inside .CaRd */
@@ -31,7 +31,7 @@
 
 /* Styling for p elements inside .CaRd */
 .CaRd p {
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 10px;
   justify-content: start;
   display: flex;
@@ -50,9 +50,13 @@
 .serv10,
 .serv11,
 .serv12 {
-  line-height: 2;
+  align-items: center;
   max-width: 20rem;
   padding: 10px;
+  padding-bottom: 10vh;
+  height: 39.6rem;
   border-radius: 10px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -106,7 +106,7 @@ export default function Navbar() {
                   <div  className="dropdown"
                     aria-labelledby="navbarDropdownMenuLink">
                     <button className="lanBtn" onClick={toggleDropdown}>
-                      <LuLanguages />
+                      <LuLanguages />▼
                     </button>
                     <div className="dropdown-content" id="myDropdown">
                       <div
