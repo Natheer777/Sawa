@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
@@ -22,7 +22,7 @@ export default function Header() {
           nextButton.click();
         }
       }
-    }, 6000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
   }, []);

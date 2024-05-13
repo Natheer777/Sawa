@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Contact.css';
 import { useTranslation } from 'react-i18next';
 import { FaFolderPlus, FaTrash } from 'react-icons/fa'; // استيراد رمز FaTrash لزر الحذف
@@ -34,7 +34,7 @@ export default function Contact() {
         <label>{t('Phone-form')}</label>
         <input type="number" name="user_number" required />
 
-        <label>{t('Message-form')}</label>
+        <label>{t('Textarea-form')}</label>
         <textarea name="message"></textarea>
 
         <label>{t('File-form')}</label>

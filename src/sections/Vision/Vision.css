@@ -7,9 +7,9 @@
     color: var(--color--red1);
     /* margin-bottom: 10px; */
 }
-.vision-title svg{
+/* .vision-title svg{
     font-size: 30px;
-}
+} */
 .vision-details{
     margin-top: 20px;
     line-height: 2;
@@ -21,11 +21,11 @@
 .vision-details[lang="ar"]{
     line-height: 2.6;
 }
-.vision-img{
+/* .vision-img{
     width: 100%;
     margin-top: 13vh;
     height: 52vh;
-}
+} */
 
 .text-container{
   width: 100%; 

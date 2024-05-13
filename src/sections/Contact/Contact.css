@@ -76,7 +76,7 @@ form {
   label{
     margin-bottom: 8px;
   }
-  .button.delete-file-btn{
+  .delete-file-btn{
     padding: 12px;
     border-radius: 10px;
   }

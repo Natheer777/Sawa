@@ -15,10 +15,9 @@ export default function Services() {
       <div className="container mt-5" id="Services">
         <div className="row rowServices ">
           <div className="MainTitle">
-            <h2 className="hidden">
-              {t("Services-h")}
-            </h2>
+            <h2 className="hidden">{t("Services-h")}</h2>
           </div>
+
           <div className="CaRd">
             <div className="serv1 top Regular shadow">
               {card[0]} <h4>{t("Services-card1T")}</h4>{" "}

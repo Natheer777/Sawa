@@ -8,9 +8,9 @@
   color: var(--color--red1);
   /* margin-bottom: 10px; */
 }
-.about-title svg{
+/* .about-title svg{
   font-size: 40px;
-}
+} */
 .about-details {
   margin-top: 20px;
   line-height: 2.5;
@@ -19,9 +19,14 @@
   display: inline-block;
 
 }
-.about-img {
+/* .about-img {
   width: 100%;
   margin-top: 14vh;
   height: 29vh;
-}
+} */
 
+.text-container{
+  width: 100%; 
+  white-space: normal; 
+  overflow: hidden; 
+}

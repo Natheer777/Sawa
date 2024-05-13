@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const DesktopViewButton = () => {
-  // const [t] = useTranslation();
+  const [t] = useTranslation();
   const [desktopView, setDesktopView] = useState(false);
 
   const requestDesktopSite = () => {
@@ -19,7 +19,7 @@ const DesktopViewButton = () => {
 
   return (
     <div>
-      <button onClick={requestDesktopSite}>desktop</button>
+      <button className='m-1' onClick={requestDesktopSite}>{t("desktop")}</button>
     </div>
   );
 };
