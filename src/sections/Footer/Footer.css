@@ -40,6 +40,8 @@
 
 .adress {
   font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 
@@ -51,14 +53,28 @@ text-decoration: none;
   color:antiquewhite;
 }
 .Ulfooter{
+  padding: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 .App button{
   border: none;
-  padding: 10px;
+  padding: 3px 10px 3px 10px;
   border-radius: 10px;
 }
 .rowFooter{
   flex-direction: row-reverse;
+}
+.DesktopView{
+  display: none;
+}
+@media screen and (min-width:5px) and (max-width:650px) {
+  .DesktopView{
+    display: block;
+  }
+  .Ulfooter{
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

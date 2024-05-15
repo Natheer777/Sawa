@@ -73,7 +73,7 @@ export default function Footer() {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
             <ul className="Ulfooter">
-              <li>&copy; {new Date().getFullYear()}
+              <li>
             <a className="text-white">
               Copyright © 2022 SAWA GROUP LLC. All Rights Reserved.
             </a></li>

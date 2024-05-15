@@ -41,11 +41,11 @@ padding-bottom: 6px;
 
 @media screen and (min-width:850px) and (max-width:1030px ){
  
- .img1,
+ /* .img1,
  .img2,
  .img3{
   height: 17vh;
- }
+ } */
  .title h1{
   font-size: 4vh;
  }
@@ -58,12 +58,12 @@ padding-bottom: 6px;
 }
 
 @media screen and (min-width:665px) and (max-width:860px ){
- 
+/*  
  .img1,
  .img2,
  .img3{
   height: 50vh;
- }
+ } */
  .title h1{
   font-size: 6vh;
  }

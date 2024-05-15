@@ -21,10 +21,7 @@ justify-content: center;
     padding: 0;
 
 }
-.dropdown-menu.show{
-    z-index: 1000;
-    /* position: absolute; */
-}
+
 .navbar ul li a{
     color: var(--color--red);
     font-size: 22px;
@@ -120,18 +117,17 @@ justify-content: center;
 
     .dropdown {
         position: relative;
-        display: inline-block;
       }
       
       .dropdown-content {
-        display: none;
-        position: absolute;
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0 8px 16px rgba(0,0,0,0.2);
         border-radius: 10px;
-        z-index: 10;
         margin-top: 8px;
+      }
+      .dropdown-content.show {
+        display: block; 
       }
       
       .dropdown-content a {
@@ -153,6 +149,9 @@ justify-content: center;
         border: none;
         background-color: transparent;
         font-size: 12px;
+      }
+      .lanBtn svg{
+        color: var(--color--red1);
       }
       .dropdown-toggle::after{
         display: none;

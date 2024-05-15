@@ -27,6 +27,7 @@ form {
       outline: none;
       border-radius: 5px;
       border: 1px solid var(--color--red1);
+      resize: none;
 
       &:focus {
         border: 2px solid black;

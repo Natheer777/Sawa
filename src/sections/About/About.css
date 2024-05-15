@@ -4,7 +4,7 @@
 .about-title {
   margin-top: 4vh;
   font-size: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: var(--color--red1);
   /* margin-bottom: 10px; */
 }

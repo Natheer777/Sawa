@@ -1,12 +1,13 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import { Home } from "./pages/index";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-import dir  from "i18next";
+// import dir  from "i18next";
 import cookies from "js-cookie";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -38,7 +39,7 @@ function App() {
 
 /////////////////////////////////////////////
 
-  const [t] = useTranslation();
+  const [t ] = useTranslation();
   const [lan, setLan] = useState(navigator.language);
   useEffect(() => {
     setLan(navigator.language);
@@ -74,20 +75,14 @@ function App() {
         });
       });
 
-      const leftElements = document.querySelectorAll(".left");
-      const rightElements = document.querySelectorAll(".right");
-      const hiddenElements = document.querySelectorAll(".hidden");
-      const topElements = document.querySelectorAll(".top");
-      leftElements.forEach((el) => observer.observe(el));
-      rightElements.forEach((el) => observer.observe(el));
-      hiddenElements.forEach((el) => observer.observe(el));
-      topElements.forEach((el) => observer.observe(el));
+    
+      const elements = document.querySelectorAll(".left , .right , .hidden , .top")
+  
+      elements.forEach((el)=>{observer.observe(el)})
 
       return () => {
-        leftElements.forEach((el) => observer.unobserve(el));
-        rightElements.forEach((el) => observer.unobserve(el));
-        hiddenElements.forEach((el) => observer.unobserve(el));
-        topElements.forEach((el) => observer.unobserve(el));
+        elements.forEach((el) =>{observer.unobserve(el)})
+   
       };
     });
   }, []);
@@ -110,11 +105,13 @@ function App() {
   const toggleIcons = () => {
     setShowIcons(!showIcons);
   };
-
+  const hideIcons = () => {
+    setShowIcons(false);
+  };
   return (
     <>
       <div className="social">
-        <ul onClick={toggleIcons} style={{ cursor: "pointer" }}>
+        <ul onMouseEnter={toggleIcons} onMouseLeave={hideIcons} style={{ cursor: "pointer" }}>
           <li className="click">
             <IoChatbubbleEllipsesOutline />
           </li>
@@ -139,17 +136,19 @@ function App() {
           )}
         </ul>
       </div>
-      {/* {loading ? (
+      {loading ? (
         <img className="Loading" src={Logo} alt="" />
-      ) : ( */}
+      ) : (
         <>
-          <Router>
+          
+              <Router>
             <Routes>
               <Route path="/Sawa/" element={<Home />} />
             </Routes>
-          </Router>
+              </Router>
+        
         </>
-      {/* )} */}
+       )} 
     </>
   );
 }
