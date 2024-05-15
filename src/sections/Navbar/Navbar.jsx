@@ -12,14 +12,17 @@ export default function Navbar() {
   const [t] = useTranslation();
   const dropdownRef = useRef(null);
 
-  const toggleDropdown = () => {
+  const showDropdown = () => {
     if (dropdownRef.current) {
-      const isVisible =
-        window.getComputedStyle(dropdownRef.current).display !== 'none';
-      dropdownRef.current.style.display = isVisible ? 'none' : 'block';
+      dropdownRef.current.style.display = 'block';
     }
   };
 
+  const hideDropdown = () => {
+    if (dropdownRef.current) {
+      dropdownRef.current.style.display = 'none';
+    }
+  };
 
   useEffect(() => {
     const handleLanguageChange = () => {
@@ -33,9 +36,10 @@ export default function Navbar() {
     return () => {
       i18n.off("languageChanged", handleLanguageChange);
     };
-  }, []);
+  }, [i18n]);
 
   return (
+    <>
     <div className="container">
       <div className="title container">
         <ul>
@@ -60,40 +64,43 @@ export default function Navbar() {
         </div>
       </div>
       <nav className="navbar navbar-expand-lg navbar-light mt-4">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
-            <li className="nav-item active item1">
-              <a className="nav-link" href="#">
-                <FaHome /> {t("Navbar-Home")}
-              </a>
-            </li>
-            <li className="nav-item item2">
-              <a className="nav-link" href="#about">
-                <IoPerson /> {t("Navbar-about")}
-              </a>
-            </li>
-            <li className="nav-item item3">
-              <a className="nav-link" href="#Services">
-                <GrServices /> {t("Navbar-Services")}
-              </a>
-            </li>
-            <li className="nav-item item4">
-              <a className="nav-link" href="#Contact">
-                <FaPhoneAlt /> {t("Navbar-contact")}
-              </a>
-            </li>
-            <li
+      <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul className="navbar-nav">
+                <li className="nav-item active item1 hidden">
+                  <a className="nav-link" href="#">
+                    <FaHome />
+                    {t("Navbar-Home")}
+                    <span className="sr-only"></span>
+                  </a>
+                </li>
+                <li className="nav-item item2 hidden">
+                  <a className="nav-link" href="#about">
+                    <IoPerson /> {t("Navbar-about")}
+                  </a>
+                </li>
+                <li className="nav-item item3 hidden">
+                  <a className="nav-link" href="#Services">
+                    <GrServices /> {t("Navbar-Services")}
+                  </a>
+                </li>
+                <li className="nav-item item4 hidden">
+                  <a className="nav-link" href="#Contact">
+                    <FaPhoneAlt /> {t("Navbar-contact")}
+                  </a>
+                </li>
+             <li
               className="nav-item dropdown item5 hidden nav-link dropdown-toggle fs-5 "
               id="navbarDropdownMenuLink"
               data-bs-toggle="dropdown"
@@ -101,12 +108,14 @@ export default function Navbar() {
               aria-expanded="false"
             >
               <div
-                className="dropdown"
+                className="dropdown lanBtn"
+                onMouseEnter={showDropdown}
+                onMouseLeave={hideDropdown}
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <button className="lanBtn" onClick={toggleDropdown}>
+            
                   <LuLanguages /> ▼
-                </button>
+               
                 <div
                   className="dropdown-content"
                   ref={dropdownRef}
@@ -141,7 +150,10 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
+        </div>
       </nav>
     </div>
+  
+    </>
   );
 }

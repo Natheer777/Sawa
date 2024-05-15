@@ -1,9 +1,11 @@
 * {
   font-family: "Zen Antique", "Vollkorn", "Noto Serif JP", "Scheherazade New",
-    serif;
-  font-weight: normal;
-  font-style: normal;
-  list-style: none;
+      serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .Loading {
   width: 6vh;
