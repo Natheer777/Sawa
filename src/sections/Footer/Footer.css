@@ -58,6 +58,22 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
 }
+.DesktopView{
+  position: relative;
+  background-color: var(--color--red1);
+}
+.DesktopView h5{
+  font-size: 12px;
+  color: white;
+position: absolute;
+left: 50%;
+top: 42%;
+transform: translate(-50%,-50%);
+}
+.DesktopView svg{
+  color: white;
+  font-size: 6vh;
+}
 .App button{
   border: none;
   padding: 10px 12px 10px 12px;

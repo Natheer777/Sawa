@@ -19,7 +19,7 @@ const DesktopViewButton = () => {
 
   return (
     <div>
-      <button className='DesktopView m-1' onClick={requestDesktopSite}>{t("desktop")} <CgScreen /></button>
+      <button className='DesktopView m-1' onClick={requestDesktopSite}><h5>{t("desktop")}</h5> <CgScreen /></button>
     </div>
   );
 };

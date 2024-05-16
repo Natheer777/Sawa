@@ -35,7 +35,7 @@ export default function Services() {
               <p lang={i18n.language}>{t("Services-card4")}</p>
             </div>
             <div className="serv5 top Regular shadow">
-              {card[4]} <h4>{t("Services-card5T")}</h4>{" "}
+              {card[4]} <h4 lang={i18n.language}>{t("Services-card5T")}</h4>{" "}
               <p lang={i18n.language}>{t("Services-card5")}</p>
             </div>
             <div className="serv6 top Regular shadow">
