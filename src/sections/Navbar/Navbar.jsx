@@ -101,14 +101,14 @@ export default function Navbar() {
                   </a>
                 </li>
              <li
-              className="nav-item dropdown item5 hidden nav-link dropdown-toggle fs-5 "
+              className="nav-item dropdown  nav-link dropdown-toggle fs-5 "
               id="navbarDropdownMenuLink"
               data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               <div
-                className="dropdown lanBtn"
+                className="dropdown lanBtn item5 hidden"
                 onMouseEnter={showDropdown}
                 onMouseLeave={hideDropdown}
                 aria-labelledby="navbarDropdownMenuLink"

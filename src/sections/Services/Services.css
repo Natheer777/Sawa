@@ -19,6 +19,7 @@
   color: var(--color--red1);
   margin-top: 6px;
   text-align: center;
+
 }
 
 .CaRd p {
@@ -49,6 +50,6 @@
 .serv12 {
   max-width: 20rem;
   margin: 0 auto !important;
-  height: max-content;
+  /* height: max-content; */
   border-radius: 10px;
 }
