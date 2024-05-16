@@ -2,7 +2,6 @@ import "./Services.css";
 import Data from "../../Data/Card_Services";
 import { Card_Services } from "../../components/index";
 import { useTranslation } from "react-i18next";
-// import { GrServices } from "react-icons/gr";
 
 export default function Services() {
   const [t , i18n] = useTranslation();

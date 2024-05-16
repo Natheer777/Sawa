@@ -4,32 +4,23 @@
 }
 .MainTitle h2{
   font-size: 2rem;
-  /* font-weight: bold; */
 }
-/* .MainTitle h2 svg{
-  font-size: 30px;
-} */
 
-/* Styling for the .CaRd container */
 .CaRd {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
   justify-content: space-between;
-  /* align-items: flex-start; */
 }
 
-/* Styling for h4 elements inside .CaRd */
 .CaRd h4 {
   margin: 0;
   font-size: 22px;
   color: var(--color--red1);
   margin-top: 6px;
-  /* font-weight: bold; */
   text-align: center;
 }
 
-/* Styling for p elements inside .CaRd */
 .CaRd p {
   font-size: 20px;
   justify-content: start;
@@ -37,7 +28,6 @@
   padding: 5px;
 }
 
-/* Common styling for serv1 to serv12 classes */
 .serv1,
 .serv2,
 .serv3,

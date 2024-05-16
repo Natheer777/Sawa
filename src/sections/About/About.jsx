@@ -15,9 +15,7 @@ export default function About() {
           <p className="about-details right">{t("About-p")}</p>           
        
         </div>
-        {/* <div className="col-lg-6">
-          <img className="about-img left" src={AboutImg} alt="" />
-        </div> */}
+
       </div>
     </div>
     </>

@@ -11,7 +11,6 @@ const DesktopViewButton = () => {
       const viewport = document.querySelector("meta[name=viewport]");
       if (viewport) {
         viewport.setAttribute('content', 'width=1024');
-        // window.location.reload(); // Reload the page to apply changes
       }
     }
     setDesktopView(true);

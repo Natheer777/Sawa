@@ -16,8 +16,7 @@ background-image: url("../../assets/Services/اعمالنا_.webp");
   background-repeat: no-repeat;
   width: 100%;
   height: 70vh;
-  /* padding: 1px; */
-  /* margin: 1px; */
+
 }
 
 
@@ -29,7 +28,7 @@ background-image: url("../../assets/Services/اعمالنا_.webp");
   display: none;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-  /* display: none; */
+
 bottom: -7px;
 padding-bottom: 6px;
 }
@@ -41,11 +40,7 @@ padding-bottom: 6px;
 
 @media screen and (min-width:850px) and (max-width:1030px ){
  
- /* .img1,
- .img2,
- .img3{
-  height: 17vh;
- } */
+
  .title h1{
   font-size: 4vh;
  }
@@ -58,12 +53,7 @@ padding-bottom: 6px;
 }
 
 @media screen and (min-width:665px) and (max-width:860px ){
-/*  
- .img1,
- .img2,
- .img3{
-  height: 50vh;
- } */
+
  .title h1{
   font-size: 6vh;
  }

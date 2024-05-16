@@ -17,9 +17,6 @@ export default function Vision() {
           <h2 className="vision-title right">{t("Vision-h")}</h2>
           <p className="vision-details right" lang={i18n.language}>{t("Vision-p")}</p>
         </div>
-        {/* <div className="col-lg-6">
-          <img className="vision-img left" src={VisionImg} alt="" />
-        </div> */}
       </div>
     </div>
     

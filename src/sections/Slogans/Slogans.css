@@ -1,6 +1,5 @@
 .cards {
   font-weight: bold;
-  /* color: var(--color--red); */
 }
 .cards .container .row{
   gap: 10px;

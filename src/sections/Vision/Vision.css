@@ -3,17 +3,12 @@
 }
 .vision-title{
     font-size: 2rem;
-    /* font-weight: bold; */
     color: var(--color--red1);
-    /* margin-bottom: 10px; */
 }
-/* .vision-title svg{
-    font-size: 30px;
-} */
+
 .vision-details{
     margin-top: 20px;
     line-height: 2;
-    /* opacity: 0.9; */
     font-weight: 500;
     font-size: 20px;
     display: inline-block;
@@ -21,11 +16,6 @@
 .vision-details[lang="ar"]{
     line-height: 2.6;
 }
-/* .vision-img{
-    width: 100%;
-    margin-top: 13vh;
-    height: 52vh;
-} */
 
 .text-container{
   width: 100%; 

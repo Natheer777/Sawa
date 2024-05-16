@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -7,7 +6,6 @@ import { Home } from "./pages/index";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-// import dir  from "i18next";
 import cookies from "js-cookie";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -36,9 +34,6 @@ const languages = [
 function App() {
 
 
-
-/////////////////////////////////////////////
-
   const [t ] = useTranslation();
   const [lan, setLan] = useState(navigator.language);
   useEffect(() => {
@@ -51,18 +46,15 @@ function App() {
     }
   }, [lan]);
 
-  ///////////////////////////////
   const currentLanguageCode = cookies.get("i18next") || "en";
   const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
-  // const [t] = useTranslation();
 
   useEffect(() => {
     console.log("Setting page stuff");
     document.body.dir = currentLanguage.dir || "ltr";
-    // document.title = t("app_title");
   }, [currentLanguage, t]);
 
-  /////////////////////////////////////////////
+  ////
   useEffect(() => {
     setInterval(() => {
       const observer = new IntersectionObserver((entries) => {
@@ -88,17 +80,18 @@ function App() {
   }, []);
 
 
-  ////////////////////////////////////
-
+////
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 100);
+    }, 4000);
   }, []);
-  ///////////////////////////////////
+  
+
+  ////
 
   const [showIcons, setShowIcons] = useState(false);
 
@@ -108,9 +101,14 @@ function App() {
   const hideIcons = () => {
     setShowIcons(false);
   };
+  ////
+  setTimeout(() => {
+    document.querySelector(".social").style.display = 'block'
+  }, 5000);
   return (
     <>
-      <div className="social">
+    
+      <div className="social hidden">
         <ul onMouseEnter={toggleIcons} onMouseLeave={hideIcons} style={{ cursor: "pointer" }}>
           <li className="click">
             <IoChatbubbleEllipsesOutline />

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Contact.css';
 import { useTranslation } from 'react-i18next';
-import { FaFolderPlus, FaTrash } from 'react-icons/fa'; // استيراد رمز FaTrash لزر الحذف
+import { FaFolderPlus, FaTrash } from 'react-icons/fa'; 
 
 import Caontact from '../../assets/Services/اتصل بنا.webp';
 
@@ -15,7 +15,7 @@ export default function Contact() {
   };
 
   const handleFileDelete = () => {
-    setAttachedFile(null); // حذف الملف المُرفق عند النقر على زر الحذف
+    setAttachedFile(null); 
   };
 
   return (
