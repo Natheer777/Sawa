@@ -60,17 +60,19 @@ text-decoration: none;
 }
 .App button{
   border: none;
-  padding: 3px 10px 3px 10px;
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  justify-content: space-between;
   border-radius: 10px;
 }
 .rowFooter{
   flex-direction: row-reverse;
 }
-.DesktopView{
+.App button{
   display: none;
 }
 @media screen and (min-width:5px) and (max-width:650px) {
-  .DesktopView{
+  .App button{
     display: block;
   }
   .Ulfooter{

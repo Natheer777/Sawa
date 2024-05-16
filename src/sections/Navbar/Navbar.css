@@ -1,6 +1,6 @@
 
 .navbar-brand img {
-  width: 13vh;
+  width: 6rem;
 }
 .container-fluid {
   background-color: var(--main--color);
@@ -61,7 +61,6 @@
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  margin-top: 8px;
   z-index: 1;
 }
 .dropdown-content a {
@@ -103,15 +102,12 @@
   margin: 0;
 }
 .title h1[lang="ar"] {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
 }
 .diffrint[lang="ar"] {
   font-size: 1.5rem;
 }
-.title h4 {
-  font-size: 3vh;
-  font-weight: bold;
-}
+
 .title ul {
   padding: 0;
   margin: 0;
@@ -128,9 +124,9 @@
   color: #c39010;
   border-radius: 50px;
   margin-top: 22px;
-  width: 70vh;
   font-size: 1.2rem;
   padding-bottom: 10px;
+
 }
 
 
@@ -147,19 +143,15 @@
   font-size: 17px;
 }
 @media screen and (min-width:5px) and (max-width:550px) {
-  .title ul{
-      justify-content: center;
-      flex-direction:column-reverse;
-      flex-wrap: wrap;
-      gap: 0;
-  }
+.title ul{
+  position: relative;
+}
   .title ul li{
-    justify-content: center;
+    height: 11rem;
   }
   .diffrint{
+    align-items: end;
+    position: absolute;
     width: 100%;
-  }
-  .navbar-brand img{
-    width: 12vh !important;
-  }
 }
+  }

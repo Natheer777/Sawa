@@ -61,9 +61,9 @@ export default function Services() {
             <div className="serv11 top Regular shadow">
               {card[10]}<h4>{t("Services-card11T")}</h4> <p lang={i18n.language}>{t("Services-card11")}</p>
             </div>
-            <div className="serv12 top Regular shadow">
+            {/* <div className="serv12 top Regular shadow">
               {card[11]} <h4>{t("Services-card12T")}</h4> <p lang={i18n.language}>{t("Services-card12")}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

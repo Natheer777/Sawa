@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import logo from "../../assets/Logo/سوىAI-01 (1).webp";
 import { useTranslation } from "react-i18next";
 import DesktopViewButton from "../Footer/DesktopViews";
+
 export default function Footer() {
   const [t] = useTranslation();
   return (
