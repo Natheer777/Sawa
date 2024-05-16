@@ -81,7 +81,7 @@ div#root {
 .social {
   z-index: 30;
   position: fixed;
-  bottom: 8vh;
+  bottom: 15vh;
   right: 14px;
   border: none;
   color: white;
