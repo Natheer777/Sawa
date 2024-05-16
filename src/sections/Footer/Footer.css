@@ -29,7 +29,6 @@
 .logo_white {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 6vh; */
 }
 .logo_white img {
   width: 10vh;
@@ -72,7 +71,7 @@ transform: translate(-50%,-50%);
 }
 .DesktopView svg{
   color: white;
-  font-size: 6vh;
+  font-size: 2rem;
 }
 .App button{
   border: none;
