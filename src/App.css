@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+
 }
 .Loading {
   width: 6vh;
@@ -37,8 +38,14 @@
   --color--red1: #cb011a;
   --color--red: #000000;
 }
+div#root{
+  background-image: url("./assets/pexels-apasaric-1323712.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 div#root {
-  background-color: var(--main--color);
+  /* background-color: var(--main--color); */
 }
 .left {
   opacity: 0;

@@ -75,7 +75,7 @@ transform: translate(-50%,-50%);
 }
 .App button{
   border: none;
-  padding: 10px 12px 10px 12px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;

@@ -30,14 +30,19 @@ export default function Footer() {
                 <h5 className="text-uppercase adress"> {t("Adress")}</h5>
 
                 <ul className="list-unstyled">
+                  
+                <a href="tel:+81050-6866-1791">
                   <li>
                     <RiHomeOfficeLine /> {t("Office")}
                   </li>
+                  </a>
+                  <a href="tel:+81090-1840-9625">
                   <li>
                     <FaMobileAlt />
                     {t("Phone")}
                   </li>
-                  <a href="https://wa.link/mr0gya">
+                    </a>            
+                  <a href="https://wa.link/3zzbvj">
                     <li>
                       <FaWhatsapp /> {t("Whatsapp")}
                     </li>

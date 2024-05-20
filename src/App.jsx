@@ -109,7 +109,7 @@ function App() {
     <>
     
       <div className="social hidden">
-        <ul onMouseEnter={toggleIcons} onMouseLeave={hideIcons} style={{ cursor: "pointer" }}>
+        <ul onMouseEnter={toggleIcons} onClick={toggleIcons} onMouseLeave={hideIcons} style={{ cursor: "pointer" }}>
           <li className="click">
             <IoChatbubbleEllipsesOutline />
           </li>

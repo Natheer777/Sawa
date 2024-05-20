@@ -14,13 +14,13 @@ export default function Navbar() {
 
   const showDropdown = () => {
     if (dropdownRef.current) {
-      dropdownRef.current.style.display = 'block';
+      dropdownRef.current.style.display = "block";
     }
   };
 
   const hideDropdown = () => {
     if (dropdownRef.current) {
-      dropdownRef.current.style.display = 'none';
+      dropdownRef.current.style.display = "none";
     }
   };
 
@@ -100,54 +100,53 @@ export default function Navbar() {
                     <FaPhoneAlt /> {t("Navbar-contact")}
                   </a>
                 </li>
-             <li
-              className="nav-item dropdown  nav-link dropdown-toggle fs-5 "
-              id="navbarDropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <div
-                className="dropdown lanBtn item5 hidden"
-                onMouseEnter={showDropdown}
-                onMouseLeave={hideDropdown}
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-            
-                  <LuLanguages /> ▼
-               
-                <div
-                  className="dropdown-content"
-                  ref={dropdownRef}
-                  style={{ display: "none" }}
+                <li
+                  className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5 "
+                  id="navbarDropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
-                  <a
-                    onClick={() => {
-                      i18n.changeLanguage("ja");
-                    }}
-                    className="dropdown-item"
+                  <div
+                    className="dropdown lanBtn item5 hidden"
+                    onMouseEnter={showDropdown}
+                    onMouseLeave={hideDropdown}
+                    onClick={showDropdown}
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <LuLanguages /> ▼
+                    <div
+                      className="dropdown-content"
+                      ref={dropdownRef}
+                      style={{ display: "none" }}
                     >
-                    日本語
-                  </a>
-                  <a
-                    onClick={() => {
-                      i18n.changeLanguage("en");
-                    }}
-                    className="dropdown-item"
-                  >
-                    English
-                  </a>
-                  <a
-                    onClick={() => {
-                      i18n.changeLanguage("ar");
-                    }}
-                    className="dropdown-item"
-                  >
-                    العربية
-                  </a>
-                </div>
-              </div>
-            </li>
+                      <a
+                        onClick={() => {
+                          i18n.changeLanguage("ja");
+                        }}
+                        className="dropdown-item"
+                      >
+                        日本語
+                      </a>
+                      <a
+                        onClick={() => {
+                          i18n.changeLanguage("en");
+                        }}
+                        className="dropdown-item"
+                      >
+                        English
+                      </a>
+                      <a
+                        onClick={() => {
+                          i18n.changeLanguage("ar");
+                        }}
+                        className="dropdown-item"
+                      >
+                        العربية
+                      </a>
+                    </div>
+                  </div>
+                </li>
           </ul>
         </div>
         </div>
