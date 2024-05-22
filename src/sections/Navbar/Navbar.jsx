@@ -26,9 +26,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleLanguageChange = () => {
-      if (dropdownRef.current) {
-        dropdownRef.current.style.display = "none";
-      }
+      hideDropdown();
     };
 
     i18n.on("languageChanged", handleLanguageChange);
@@ -40,31 +38,31 @@ export default function Navbar() {
 
   return (
     <>
-    <div className="container">
-      <div className="title container">
-        <ul>
-          <li>
-            <h1 className="left" lang={i18n.language}>
-              {t("Header-h")}
-            </h1>
-          </li>
-          <li className="diffrint left" lang={i18n.language}>
-            {t("Header-p")}
-          </li>
-          <li>
-            <a className="navbar-brand" href="#">
-              <img src={Logo} alt="Logo" />
-            </a>
-          </li>
-        </ul>
-        <div className="typing-demo right">
-          <div className="mt-3 m-0">
-            <h5 lang={i18n.language}>{t("Main")}</h5>
+      <div className="container">
+        <div className="title container">
+          <ul>
+            <li>
+              <h1 className="left" lang={i18n.language}>
+                {t("Header-h")}
+              </h1>
+            </li>
+            <li className="diffrint left" lang={i18n.language}>
+              {t("Header-p")}
+            </li>
+            <li>
+              <a className="navbar-brand" href="#">
+                <img src={Logo} alt="Logo" />
+              </a>
+            </li>
+          </ul>
+          <div className="typing-demo right">
+            <div className="mt-3 m-0">
+              <h5 lang={i18n.language}>{t("Main")}</h5>
+            </div>
           </div>
         </div>
-      </div>
-      <nav className="navbar navbar-expand-lg navbar-light mt-4">
-      <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light mt-4">
+          <div className="container-fluid">
             <button
               className="navbar-toggler"
               type="button"
@@ -100,18 +98,12 @@ export default function Navbar() {
                     <FaPhoneAlt /> {t("Navbar-contact")}
                   </a>
                 </li>
-                <li
-                  className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5 "
-                  id="navbarDropdownMenuLink"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
+                <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
                   <div
                     className="dropdown lanBtn item5 hidden"
                     onMouseEnter={showDropdown}
                     onMouseLeave={hideDropdown}
-                    onClick={showDropdown}
+                    onClickCapture={showDropdown}
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <LuLanguages /> ▼
@@ -121,25 +113,19 @@ export default function Navbar() {
                       style={{ display: "none" }}
                     >
                       <a
-                        onClick={() => {
-                          i18n.changeLanguage("ja");
-                        }}
+                        onClick={() => i18n.changeLanguage("ja")}
                         className="dropdown-item"
                       >
                         日本語
                       </a>
                       <a
-                        onClick={() => {
-                          i18n.changeLanguage("en");
-                        }}
+                        onClick={() => i18n.changeLanguage("en")}
                         className="dropdown-item"
                       >
                         English
                       </a>
                       <a
-                        onClick={() => {
-                          i18n.changeLanguage("ar");
-                        }}
+                        onClick={() => i18n.changeLanguage("ar")}
                         className="dropdown-item"
                       >
                         العربية
@@ -147,12 +133,11 @@ export default function Navbar() {
                     </div>
                   </div>
                 </li>
-          </ul>
-        </div>
-        </div>
-      </nav>
-    </div>
-  
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </>
   );
 }

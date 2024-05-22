@@ -39,12 +39,12 @@
   --color--red: #000000;
 }
 div#root{
-  background-image: url("./assets/pexels-apasaric-1323712.webp");
-  background-size: cover;
+  background-image: url('./assets/paper-style-luxury-background_23-2148983585.png');
   background-position: center;
-  background-repeat: no-repeat;
+  background-size: auto;
 }
-div#root {
+div#root{
+  /* flood-opacity: 0.5; */
   /* background-color: var(--main--color); */
 }
 .left {

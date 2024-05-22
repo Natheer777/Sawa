@@ -155,3 +155,8 @@
     width: 100%;
 }
   }
+
+
+  .Vis{
+    display: none;
+  }
