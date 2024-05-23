@@ -1,12 +1,12 @@
-import { Navbar, Header, About ,  Vision, Services, Contact, Footer} from "../../sections/index";
+import { Navbar, Header, About ,  Vision, Services, Contact, Footer , Head} from "../../sections/index";
 
 
 export default function Home() {
 
   return (
     <>
-    
-    <Navbar />
+      <Head />
+      <Navbar />
       <Header />
       <About />
       <Vision />

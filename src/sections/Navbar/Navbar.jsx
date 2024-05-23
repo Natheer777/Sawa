@@ -11,6 +11,8 @@ import "./Navbar.css";
 export default function Navbar() {
   const [t] = useTranslation();
   const dropdownRef = useRef(null);
+  const navbarCollapseRef = useRef(null);
+
 
   const showDropdown = () => {
     if (dropdownRef.current) {
@@ -24,9 +26,16 @@ export default function Navbar() {
     }
   };
 
+  const closeNavbarCollapse = () => {
+    if (navbarCollapseRef.current && navbarCollapseRef.current.classList.contains("show")) {
+      navbarCollapseRef.current.classList.remove("show");
+    }
+  };
+
   useEffect(() => {
     const handleLanguageChange = () => {
       hideDropdown();
+      closeNavbarCollapse();
     };
 
     i18n.on("languageChanged", handleLanguageChange);
@@ -74,7 +83,7 @@ export default function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <div className="collapse navbar-collapse" id="navbarNavDropdown" ref={navbarCollapseRef}>
               <ul className="navbar-nav">
                 <li className="nav-item active item1 hidden">
                   <a className="nav-link" href="#">
