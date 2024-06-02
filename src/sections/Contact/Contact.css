@@ -43,8 +43,9 @@ form {
       cursor: pointer;
       background: var(--color--red1);
       color: white;
-      padding-top: 3vh;
-      padding-bottom: 3vh;
+      font-size: 4vh;
+      padding-top: 2.5vh;
+      padding-bottom: 2.5vh;
     }
   }
   input[type="file"]::file-selector-button{

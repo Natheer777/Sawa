@@ -23,9 +23,10 @@
 }
 .footer ul li {
   margin-bottom: 10px;
-/* opacity: 0.8; */
 }
-
+.list-unstyled{
+  text-align: start;
+}
 .logo_white {
   display: flex;
   justify-content: center;
@@ -38,6 +39,7 @@
 }
 
 .adress {
+  text-align: start;
   font-size: 18px;
   margin-bottom: 10px;
   line-height: 1.5;

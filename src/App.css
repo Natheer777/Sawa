@@ -45,9 +45,7 @@
   --color--red: #000000;
 }
 div#root{
-  background-image: url('./assets/paper-style-luxury-background_23-2148983585.png');
-  background-position: center;
-  background-size: auto;
+background-color: var(--main--color);
 }
 div#root{
   /* flood-opacity: 0.5; */
