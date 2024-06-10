@@ -45,6 +45,11 @@
   line-height: 1.5;
 }
 
+@media screen and (min-width:1200px) and (max-width:1440px){
+  .adress[lang="en"]{
+    font-size: 17px;
+    }  
+}
 
 svg{
   font-size: 20px;
@@ -58,6 +63,9 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.Ulfooter a{
+  font-size: 15px;
 }
 .DesktopView{
   position: relative;

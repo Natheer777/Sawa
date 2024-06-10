@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import DesktopViewButton from "../Footer/DesktopViews";
 
 export default function Footer() {
-  const [t] = useTranslation();
+  const [t , i18n] = useTranslation();
   return (
     <>
       <footer className="footer">
@@ -27,7 +27,7 @@ export default function Footer() {
                 <p></p>
               </MDBCol>
               <MDBCol lg="9" md="8">
-                <h5 className="text-uppercase adress"> {t("Adress")}</h5>
+                <h5 className="text-uppercase adress" lang={i18n.language}> {t("Adress")}</h5>
 
                 <ul className="list-unstyled">
                   
@@ -81,7 +81,7 @@ export default function Footer() {
             <ul className="Ulfooter">
               <li>
             <a className="text-white">
-              Copyright © 2022 SAWA GROUP LLC. All Rights Reserved.
+              Copyright © 2022 Sawa Group. All Rights Reserved.
             </a></li>
               <li className="App">       
       <DesktopViewButton />
