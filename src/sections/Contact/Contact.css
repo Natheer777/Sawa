@@ -44,8 +44,8 @@ form {
       background: var(--color--red1);
       color: white;
       font-size: 4vh;
-      padding-top: 2.5vh;
-      padding-bottom: 2.5vh;
+      /* padding-top: 2.5vh;
+      padding-bottom: 2.5vh; */
     }
   }
   input[type="file"]::file-selector-button{
