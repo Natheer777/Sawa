@@ -160,3 +160,34 @@
   .Vis{
     display: none;
   }
+
+
+  /* Navbar.css */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-toggler {
+  transition: none;
+}
+
+.navbar-collapse {
+  transition: none !important;
+}
+
+.navbar-nav .nav-item {
+  /* transition: none; */
+}
+
+.title .left,
+.title .right {
+  transition: none;
+}
+
+.typing-demo {
+  display: flex;
+  align-items: center;
+}

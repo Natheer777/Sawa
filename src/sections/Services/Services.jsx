@@ -13,7 +13,7 @@ export default function Services() {
     <>
       <div className="container mt-5" id="Services">
         <div className="row rowServices ">
-          <div className="MainTitle">
+          <div className="MainTitle same">
             <h2 className="hidden">{t("Services-h")}</h2>
           </div>
 

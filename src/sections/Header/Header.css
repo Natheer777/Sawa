@@ -1,4 +1,4 @@
-.img1 {
+/* .img1 {
   background-image: url("../../assets/Services/من نحن_.webp");
 }
 .img2 {
@@ -114,5 +114,75 @@ padding-bottom: 6px;
   }
   .title h4 {
       font-size: 2.5vh;
+  }
+} */
+
+.slider-container {
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden; /* لإخفاء الصور التي تخرج من الحاوية */
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transform: scale(0.8); /* بدء الصورة بحجم صغير وشفاف */
+  
+}
+
+.slick-active .slider-image {
+  opacity: 1;
+  transform: scale(1); /* تكبير الصورة وجعلها مرئية عند العرض */
+}
+
+.slick-slide:not(.slick-active) .slider-image {
+  opacity: 0;
+  transform: scale(0.8); /* تصغير الصورة وجعلها شفافة عند الاختفاء */
+}
+
+/* App.css */
+.slider-container {
+  height: 28rem;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden; /* لإخفاء الصور التي تخرج من الحاوية */
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height:auto;
+  border: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transform: scale(0.4); /* بدء الصورة بحجم صغير وشفاف */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+}
+
+.slick-active {
+  opacity: 1;
+  transform: scale(1); /* تكبير الصورة وجعلها مرئية عند العرض */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .slider-container {
+    height: 30vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    height: 18vh;
+    width: calc(100% - 11%);
   }
 }

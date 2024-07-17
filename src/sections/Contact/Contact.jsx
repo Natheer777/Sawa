@@ -19,7 +19,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mb-5 mt-5">
+    <div className="container Contactt mb-5 mt-5 same ">
       <div className="Contact">
         <img src={Caontact} alt="" />
       </div>
@@ -54,9 +54,9 @@ export default function Contact() {
               <button className="delete-file-btn" onClick={handleFileDelete}><FaTrash /></button>
             </div>
           )}
+          <input type="submit" value={t('Send-form')} />
         </div>
 
-        <input type="submit" value={t('Send-form')} />
         <input type="hidden" name="_captcha" value="false" />
       </form>
     </div>
